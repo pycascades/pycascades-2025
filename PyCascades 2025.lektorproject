@@ -1,0 +1,9 @@
+[project]
+name = PyCascades 2025
+url = 2025.pycascades.com
+
+[servers.ghpages]
+name = Production
+enabled = false
+default = yes
+target = ghpages://pycascades/pycascades-2025?cname=2025.pycascades.com

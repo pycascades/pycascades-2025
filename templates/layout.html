@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>
+    {% block title %}
+    Welcome
+    {% endblock %}— PuPPy
+  </title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" />
+  <link rel="stylesheet" href="{{ '/static/style.css' | asseturl }}" />
+</head>
+
+<body>
+  <nav navbar is-fixed-top">
+    <div class="container">
+      <div class="navbar-brand">
+        <div class="navbar-item">
+          <a href="/" class="nav-link">
+            <div class="nav-icon">
+              {# TODO: small logo #}
+            </div>
+
+            <div class="nav-title">
+              <h3 class="is-size-4 has-text-weight-bold">PyCascades 2025</h3>
+              <p class="is-size-7 is-uppercase">Coming to Portland, Oregon in 2025</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  {% block body %}
+
+  {% endblock %}
+
+  <footer>
+    <nav>
+      <div class="navbar-item">
+        <a href="/about/code-of-conduct">Code of Conduct</a>
+      </div>
+
+      <div class="navbar-item">
+        <a href="https://fosstodon.org/@pycascades">Mastodon</a>
+      </div>
+    </nav>
+  </footer>
+</body>
+
+</html>
