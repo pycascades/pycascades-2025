@@ -1,6 +1,17 @@
-{% extends "layout.html" %}
-{% block title %}{{ this.title }}{% endblock %}
+{% extends 'layout.html' %}
+{% from 'macros/blog.html' import render_blog_post %}
+{% block title %}
+  {{ this.title }}
+{% endblock %}
 {% block body %}
   <h2>{{ this.title }}</h2>
   {{ this.body }}
+
+  <ul>
+    {% for child in this.pagination.items %}
+      <li>
+        <h2><a href="{{ child|url }}">{{ child.title }}</a></h2>
+      </li>
+    {% endfor %}
+  </ul>
 {% endblock %}
