@@ -15,21 +15,56 @@
 </head>
 
 <body>
-  <nav navbar is-fixed-top">
-    <div class="container">
-      <div class="navbar-brand">
-        <div class="navbar-item">
-          <a href="/" class="nav-link">
-            <div class="nav-icon">
-              {# TODO: small logo #}
-            </div>
+  <nav class="navbar is-fixed-top">
+    <div class="navbar-brand">
+      <div class="navbar-item">
+        <a href="/" class="nav-link">
+          <div class="nav-icon">
+            {# TODO: small logo #}
+          </div>
 
-            <div class="nav-title">
-              <h3 class="is-size-4 has-text-weight-bold">PyCascades 2025</h3>
-              <p class="is-size-7 is-uppercase">Coming to Portland, Oregon in 2025</p>
-            </div>
-          </a>
+          <div class="nav-title">
+            <h3 class="is-size-4 has-text-weight-bold">PyCascades 2025</h3>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    {# TODO: This menu disappears on small screens, need to consult the bulma docs #}
+    {# https://bulma.io/documentation/components/navbar/ #}
+    <div class="navbar-menu">
+      <div class="navbar-start">
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a href="{{ '/about' | url }}" class="navbar-link">About</a>
+
+          <div class="navbar-dropdown">
+            {% for page in site.query('/about') %}
+            <a class="navbar-item" href="{{ page | url }}">{{ page.title }}</a>
+            {% endfor %}
+          </div>
         </div>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a href="{{ '/attending' | url }}" class="navbar-link">Attending</a>
+
+          <div class="navbar-dropdown">
+            {% for page in site.query('/attending') %}
+            <a class="navbar-item" href="{{ page | url }}">{{ page.title }}</a>
+            {% endfor %}
+          </div>
+        </div>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a href="{{ '/program' | url }}" class="navbar-link">Program</a>
+
+          <div class="navbar-dropdown">
+            {% for page in site.query('/program') %}
+            <a class="navbar-item" href="{{ page | url }}">{{ page.title }}</a>
+            {% endfor %}
+          </div>
+        </div>
+
+        <a class="navbar-item" href="{{ '/news' | url }}">News</a>
       </div>
     </div>
   </nav>
@@ -38,16 +73,10 @@
 
   {% endblock %}
 
-  <footer>
-    <nav>
-      <div class="navbar-item">
-        <a href="/about/code-of-conduct">Code of Conduct</a>
-      </div>
-
-      <div class="navbar-item">
-        <a href="https://fosstodon.org/@pycascades">Mastodon</a>
-      </div>
-    </nav>
+  <footer class="footer">
+    <a href="{{ '/about/code-of-conduct' | url }}">Code of Conduct</a>
+    <span> | </span>
+    <a href="https://fosstodon.org/@pycascades">Mastodon</a>
   </footer>
 </body>
 

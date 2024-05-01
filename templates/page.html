@@ -4,14 +4,17 @@
   {{ this.title }}
 {% endblock %}
 {% block body %}
-  <h2>{{ this.title }}</h2>
-  {{ this.body }}
+  <section class="section">
+    <h2>{{ this.title }}</h2>
 
-  <ul>
-    {% for child in this.pagination.items %}
-      <li>
-        <h2><a href="{{ child|url }}">{{ child.title }}</a></h2>
-      </li>
-    {% endfor %}
-  </ul>
+    {{ this.body }}
+
+    <ul>
+      {% for child in this.pagination.items %}
+        <li>
+          <h2><a href="{{ child|url }}">{{ child.title }}</a></h2>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
 {% endblock %}
