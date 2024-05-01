@@ -5,16 +5,18 @@
 {% endblock %}
 {% block body %}
   <section class="section">
-    <h2>{{ this.title }}</h2>
+    <div class="content">
+      <h2>{{ this.title }}</h2>
 
-    {{ this.body }}
+      {{ this.body }}
 
-    <ul>
-      {% for child in this.pagination.items %}
-        <li>
-          <h2><a href="{{ child|url }}">{{ child.title }}</a></h2>
-        </li>
-      {% endfor %}
-    </ul>
+      <ul>
+        {% for child in this.pagination.items %}
+          <li>
+            <a href="{{ child|url }}">{{ child.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
   </section>
 {% endblock %}
