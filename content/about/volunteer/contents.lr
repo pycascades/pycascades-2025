@@ -1,3 +1,5 @@
 _model: page
 ---
 title: Volunteer
+---
+show_in_menu: yes

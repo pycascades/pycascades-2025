@@ -1,3 +1,5 @@
 _model: page
 ---
 title: Attending Remotely
+---
+show_in_menu: yes

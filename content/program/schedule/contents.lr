@@ -3,3 +3,5 @@ _model: page
 title: Schedule
 ---
 body: PyCascades 2025 will be February 8th and 9th in Portland OR.
+---
+show_in_menu: yes

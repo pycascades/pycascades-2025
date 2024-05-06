@@ -1,3 +1,5 @@
 _model: page
 ---
 title: Attending in Person
+---
+show_in_menu: yes

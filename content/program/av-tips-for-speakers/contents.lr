@@ -1,3 +1,101 @@
 _model: page
 ---
 title: AV Tips for Speakers
+---
+body:
+
+## AV Tips for Remote Speakers (live and pre-recorded)
+
+_Adapted from PyCon AU_ [_https://2020.pycon.org.au/speakers/tips_](https://2020.pycon.org.au/speakers/tips/)
+
+_We strongly recommend watching this tech tips video from Next Day Video:_ [_https://www.youtube.com/watch?v=hHGs839Y6iM_](https://www.youtube.com/watch?v=hHGs839Y6iM)
+
+_Skip to the bottom for_ _hardware recommendations_
+
+## **Microphone / audio quality**
+
+By far, the best investment is ensuring audio quality is clear and not echo-y. **This is more important than video quality.** Your laptop microphone won't give good enough results to pass our tech check. A headset with a microphone is a great option, or an external microphone is even better.
+
+In an ideal world; a external USB condenser microphone is your best bet, but you will need to practice with it to ensure you’re getting optimal audio levels, it’s positioned correctly, it doesn’t accidentally pickup your speakers/other sound during your talk, and make sure any gain or volume controls are set so it's loud and clear, without any distortion, even when you're speaking loudly into it. **If you’re buying an external microphone, invest the time to learn how to use it -** do test recordings, isolate yourself away from background/ambient noise (turn off any fans etc), and play it back and listen.
+
+A condenser microphone has a specific 'direction' (it will sound much quieter/echoey if placed incorrectly), and it needs to be close to your mouth.
+
+Many podcasting guides are very useful to read, for example: [https://www.buzzsprout.com/blog/mic-technique-podcasting](https://www.buzzsprout.com/blog/mic-technique-podcasting)
+
+Dropping down from this, **using a USB headset with a microphone is the next best thing** (and super easy / doesn't have to be learnt).
+
+If the chair you’re recording in is squeaky or tends to make noise when you move around in it, consider swapping this out for a hard char (like a dining room table chair). This will prevent your microphone from picking up any “office chair” noises.
+
+## **Cameras & lighting**
+
+Some laptop webcams work pretty well (i.e. those in a MacBook); others aren’t so good. An external USB webcam such as a **_Logitech C920_** is a relatively affordable way to add high quality video.
+
+That said, before you do that, make sure you’re in a well lit position - it’s surprising how much difference this makes to quality. Lighting should be in front of you (facing back towards you), with no visible lights behind you.
+
+An easy/cheap way to ensure you’re well lit is to sit facing a window: but keep in mind the time of day when you test, compared to the time of day when you are presenting.
+
+## **Camera positioning**
+
+Make sure you are filling the frame - you don’t want your head at the bottom of the shot with lots of empty space!
+
+If you can (especially if you have an external webcam and microphone), present standing up rather than sitting down. This may sound silly, but it will help considerably with your presence. If you do this, ensure your webcam is level or facing down at you, though, rather than pointing up (a stand may help).
+
+If you’re feeling particularly creative, you could even consider a more professional setup with a dedicated HDMI camera and tripod, wireless lapel microphone, lighting and backdrop, but a decent external webcam and external microphone can get you most of the way there.
+
+## Timer, power & second monitor/device
+
+Having a timer displayed (on a second monitor, device, phone) with a countdown will help you keep on time.
+
+Ensure all devices you are using are powered, and any settings such as automatic screen sleep, pop-up notifications or screen savers are turned off.
+
+## **Slide tips**
+
+Here are some suggestions for slide design that will help you avoid a few common disappointing situations that presenters can face. _(thanks to PyCon AU organisers for this helpful list)._
+
+*   Ensure that text isn’t too close to the borders or sides of your slides
+*   Avoid highly indented bullet points
+    *   It’s a sign you’re overloading the slide.
+    *   With too much information.
+        *   Which can get frustrating
+*   Ensure that text is large enough to be readable at a distance (> 18 point is usually a good guide). If you can read your slide in the thumbnail preview, that is a good sign.
+*   Many people have problems with seeing low contrast colours and images. Please also try to consider colour-blind people when picking colours.
+*   Spellcheck your presentation.
+*   Consider using a slide lint tool, such as [http://slidelint.net/](http://slidelint.net/), to check your slides for many of the above conditions.
+*   More helpful hints can be found in the Writing Slides section of [VM Brasseur’s Public Speaking Resources](https://github.com/vmbrasseur/Public_Speaking#writing-presentations).
+
+## Hardware Recommendations
+
+We try to recommend hardware that's widely available and reasonably affordable.
+
+## Audio
+
+#### Logitech H111
+
+*   3.5 mm audio jack
+*   least expensive
+
+#### Logitech H390
+
+*   USB
+*   Good background noise cancellation
+*   [https://www.youtube.com/watch?v=7MOISQ\_St44&t=369s](https://www.youtube.com/watch?v=7MOISQ_St44&t=369s)
+
+#### Jabra Evolve 20 UC
+
+*   USB
+*   Very good background noise cancellation
+*   [https://www.youtube.com/watch?v=LZMMmjzr49w&t=172s](https://www.youtube.com/watch?v=LZMMmjzr49w&t=172s)
+
+## Video
+
+#### Logitech C270
+
+*   720p
+*   least expensive
+
+#### Logitech C920
+
+*   1080p
+*   can be mounted on a tripod
+---
+show_in_menu: yes

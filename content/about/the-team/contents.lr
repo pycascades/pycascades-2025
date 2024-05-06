@@ -3,3 +3,5 @@ _model: page
 title: The Team
 ---
 _template: the-team.html
+---
+show_in_menu: yes

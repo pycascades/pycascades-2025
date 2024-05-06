@@ -38,7 +38,7 @@
           <a href="{{ '/about' | url }}" class="navbar-link is-arrowless">About</a>
 
           <div class="navbar-dropdown">
-            {% for page in site.query('/about') %}
+            {% for page in site.query('/about').filter(F.show_in_menu == True) %}
             <a class="navbar-item" href="{{ page | url }}">{{ page.title }}</a>
             {% endfor %}
           </div>
@@ -48,7 +48,7 @@
           <a href="{{ '/attending' | url }}" class="navbar-link is-arrowless">Attending</a>
 
           <div class="navbar-dropdown">
-            {% for page in site.query('/attending') %}
+            {% for page in site.query('/attending').filter(F.show_in_menu == True) %}
             <a class="navbar-item" href="{{ page | url }}">{{ page.title }}</a>
             {% endfor %}
           </div>
@@ -58,7 +58,7 @@
           <a href="{{ '/program' | url }}" class="navbar-link is-arrowless">Program</a>
 
           <div class="navbar-dropdown">
-            {% for page in site.query('/program') %}
+            {% for page in site.query('/program').filter(F.show_in_menu == True) %}
             <a class="navbar-item" href="{{ page | url }}">{{ page.title }}</a>
             {% endfor %}
           </div>

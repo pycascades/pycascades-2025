@@ -11,7 +11,7 @@
       {{ this.body }}
 
       <ul>
-        {% for child in this.pagination.items %}
+        {% for child in this.pagination.items.filter(F.show_in_menu == True) %}
           <li>
             <a href="{{ child|url }}">{{ child.title }}</a>
           </li>
