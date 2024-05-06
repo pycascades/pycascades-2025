@@ -100,18 +100,19 @@ GitHub automatically.
 - Add model for Schedule
     - Including Docs
 - Add the ability to order pages
+- Add related pages to page model and render in page.html
+    - Will also need a toggle to show related pages.
+    - Needed for COC, Health and Safety Policy
 - Finish base layout and styling
     - Customize Bulma Theme
     - Organizers
     - Speakers
 - Add organizers
 - Fill out the content for the following pages:
+    - Home Page
     - About
         - Accessibility
-        - Code of Conduct
-        - Diversity and Inclusion
         - Grants
-        - Health and Safety Policy
         - The Conference
         - The Team
         - Volunteer
@@ -121,10 +122,9 @@ GitHub automatically.
         - Tour Portland
         - Venue
     - Program
-    - AV Tips for Speakers
-    - Schedule
-    - Social
-    - Speakers
-    - Sponsors
-    - Sprints
+        - Schedule
+        - Social
+        - Speakers
+        - Sponsors
+        - Sprints
     - News
