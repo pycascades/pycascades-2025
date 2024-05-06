@@ -108,6 +108,9 @@ GitHub automatically.
     - Organizers
     - Speakers
 - Add organizers
+- Add in-page links in page overviews
+    - Health and Safety Policy
+    - Health and Safety FAQ
 - Fill out the content for the following pages:
     - Home Page
     - About
