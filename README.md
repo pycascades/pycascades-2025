@@ -114,9 +114,6 @@ GitHub automatically.
 - Fill out the content for the following pages:
     - Home Page
     - About
-        - Accessibility
-        - Grants
-        - The Conference
         - The Team
         - Volunteer
     - Attending
