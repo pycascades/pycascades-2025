@@ -3,3 +3,28 @@ _model: page
 title: Acessibility
 ---
 show_in_menu: yes
+---
+body:
+
+*   **If you encounter an accessibility obstacle during the conference, please contact us:**
+    *   **In Venueless: Get Help > Help Desk**
+    *   **In Spatial.chat: Find an attendee with an admin badge**
+    *   **Or email us at** [**diversity@pycascades.com**](mailto:diversity@pycascades.com)
+
+We are committed to hosting a conference that is accessible to everyone. This page contains accessibility information as well as links to other resources. If you have questions or require any additional accommodations, please reach out to [diversity@pycascades.com](mailto:diversity@pycascades.com).
+
+### Captioning
+
+We have contracted White Coat Captioning to provide live captions on Saturday for both tracks.
+
+When you are in Venueless, look in the lower right corner for the CC button next to the video controls. It will enable closed captions within the video frame.
+
+![Screenshot of Venueless "Main Stage"  with a red arrow pointing to the bottom right corner button labeled "CC"](venueless-captioning.png)
+
+### Learning the Venueless Platform
+
+We are creating [instructional videos](/program/venueless/) to help you learn the platform ahead of time. We also encourage everyone to attend the kick-off social and spend some time wandering around the "venue" before Saturday.
+
+### Contact
+
+To request special accommodations, offer suggestions for how to make a remote conference accessible to all, ask questions, or if you encounter an accessibility obstacle during the conference, please contact us at [diversity@pycascades.com](mailto:diversity@pycascades.com).
