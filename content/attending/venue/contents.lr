@@ -2,6 +2,17 @@ _model: page
 ---
 title: Venue
 ---
-body: We are pleased to announce that next year's PyCascades will be held at Revolution Hall in Portland, OR!
+body:
+
+We are pleased to announce that next year's PyCascades will be held at Revolution Hall in Portland, OR!
+
+Revolution Hall is a performing arts center and concert venue at the heart of the iconic Washington High School building, in Portland's Buckman neighborhood. Built in 1906, the school was closed in 1981 due to low enrollment, and since 2013 it has been completely renovated and restored to accommodate offices, bars, two cafes, flex-use space + the historic auditorium.
+
+There is abundant street parking surrounding the venue. Most of it is free, but the main streets have meters. The City of Portland provides [parking info](https://www.portlandoregon.gov/transportation/34782), including [maps](https://www.portland.gov/transportation/parking/parkingmaps). Please do not park in the Revolution Hall lot.
+
+**Address:**
+
+1300 SE Stark Street  
+Portland, OR 97214
 ---
 show_in_menu: yes
