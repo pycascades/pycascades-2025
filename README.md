@@ -96,7 +96,6 @@ GitHub automatically.
 - Hide pages that are not currently needed
     - Speakers
     - Schedule
-    - Venue
 - Add model for Schedule
     - Including Docs
 - Add the ability to order pages
@@ -115,12 +114,9 @@ GitHub automatically.
     - Home Page
     - About
         - The Team
-        - Volunteer
     - Attending
-        - Attending In Person
-        - Attending Remotely
+        - Attending In Person (partially completed)
         - Tour Portland
-        - Venue
     - Program
         - Schedule
         - Social
