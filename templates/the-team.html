@@ -3,7 +3,59 @@
 {{ this.title }}
 {% endblock %}
 {% block body %}
-<h2>{{ this.title }}</h2>
-{{ this.body }}
-{# TODO: Iterate through databag of organizers and render each organizer #}
+<section class="section">
+    <div class="content">
+        <h2>{{ this.title }}</h2>
+
+        {{ this.body }}
+    </div>
+
+    <div class="section">
+        {% for child in this.children.include_hidden(true).include_undiscoverable(true) %}
+        <div class="card organizer-card">
+            <div class="card-image">
+                <figure class="image">
+                    <img src="{{child.attachments.get('profile.jpg') | url}}" />
+                </figure>
+            </div>
+
+            <div class="card-content">
+                <div class="media">
+                    <div class="media-content">
+                        <h4 class="title is-4">{{child.name}}</h4>
+                        <h6 class="subtitle is-6">{{child.role}}</h6>
+                        <p>{{child.bio}}</p>
+                    </div>
+                </div>
+            </div>
+            <footer class="card-footer">
+                {% if child.email %}
+                <p class="card-footer-item">
+                    <a class="title is-2" href="mailto:{{ child.email }}">
+                        @
+                    </a>
+                </p>
+                {% endif %}
+                {% if child.mastodon_url %}
+                <p class="card-footer-item">
+                    <a href="{{ child.mastodon_url }}">
+                        <img src="{{ '/static/mastodon.svg' | asseturl }}" width="35" />
+                    </a>
+                </p>
+                {% endif %}
+
+                {% if child.twitter_handle %}
+                <p class="card-footer-item">
+                    <a href="https://www.twitter.com/@{{child.twitter_handle}}">
+                        <img src="{{ '/static/x.svg' | asseturl }}" width="35" />
+                    </a>
+                </p>
+                {% endif %}
+
+
+            </footer>
+        </div>
+        {% endfor %}
+    </div>
+</section>
 {% endblock %}

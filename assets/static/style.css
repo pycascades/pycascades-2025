@@ -2,3 +2,7 @@
     color: #003d61;
     background: #ffd343;
 }
+
+.organizer-card {
+    max-width: 350px;
+}
