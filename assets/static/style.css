@@ -1,6 +1,5 @@
-::selection {
-    color: #003d61;
-    background: #ffd343;
+.organizer-list {
+    gap: 32px;
 }
 
 .organizer-card {

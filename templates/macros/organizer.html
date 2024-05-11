@@ -1,0 +1,45 @@
+{% macro render_organizer(organizer) %}
+<div class="card organizer-card">
+    <div class="card-image">
+        <figure class="image">
+            <img src="{{organizer.attachments.get('profile.jpg') | url}}" />
+        </figure>
+    </div>
+
+    <div class="card-content">
+        <div class="media">
+            <div class="media-content">
+                <h4 class="title is-4">{{organizer.name}}</h4>
+                <h6 class="subtitle is-6">{{organizer.role}}</h6>
+                <p>{{organizer.bio}}</p>
+            </div>
+        </div>
+    </div>
+    <footer class="card-footer">
+        {% if organizer.email %}
+        <p class="card-footer-item">
+            <a class="title is-2" href="mailto:{{ organizer.email }}">
+                @
+            </a>
+        </p>
+        {% endif %}
+        {% if organizer.mastodon_url %}
+        <p class="card-footer-item">
+            <a href="{{ organizer.mastodon_url }}">
+                <img src="{{ '/static/mastodon.svg' | asseturl }}" width="35" />
+            </a>
+        </p>
+        {% endif %}
+
+        {% if organizer.twitter_handle %}
+        <p class="card-footer-item">
+            <a href="https://www.twitter.com/@{{organizer.twitter_handle}}">
+                <img src="{{ '/static/x.svg' | asseturl }}" width="35" />
+            </a>
+        </p>
+        {% endif %}
+
+
+    </footer>
+</div>
+{% endmacro %}
