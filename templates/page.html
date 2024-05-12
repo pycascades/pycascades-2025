@@ -1,10 +1,13 @@
 {% extends 'layout.html' %}
 {% from 'macros/blog.html' import render_blog_post %}
+
 {% block title %}
-  {{ this.title }}
+{{ this.title }}
 {% endblock %}
+
 {% block body %}
-  <section class="section">
+<section class="section">
+  <div class="container">
     <div class="content">
       <h2>{{ this.title }}</h2>
 
@@ -12,11 +15,12 @@
 
       <ul>
         {% for child in this.children.filter(F.show_in_menu == True).order_by('sort_index', 'name') %}
-          <li>
-            <a href="{{ child|url }}">{{ child.title }}</a>
-          </li>
+        <li>
+          <a href="{{ child|url }}">{{ child.title }}</a>
+        </li>
         {% endfor %}
       </ul>
     </div>
-  </section>
+  </div>
+</section>
 {% endblock %}

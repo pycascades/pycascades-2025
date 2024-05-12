@@ -6,13 +6,15 @@
 
 {% block body %}
   <section class="section">
-    <div class="content">
-      <h2>{{ this.title }}</h2>
-      <ul>
-        {% for child in this.children %}
-          <li>{{ child.name }}</li>
-        {% endfor %}
-      </ul>
+    <div class="container">
+      <div class="content">
+        <h2>{{ this.title }}</h2>
+        <ul>
+          {% for child in this.children %}
+            <li>{{ child.name }}</li>
+          {% endfor %}
+        </ul>
+      </div>
     </div>
   </section>
 {% endblock %}

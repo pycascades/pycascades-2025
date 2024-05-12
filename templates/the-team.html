@@ -5,32 +5,34 @@
 {% endblock %}
 {% block body %}
 <section class="section">
-    <div class="content">
-        <h2>{{ this.title }}</h2>
+    <div class="container">
+        <div class="content">
+            <h2>{{ this.title }}</h2>
 
-        {{ this.body }}
-    </div>
-
-    <div class="section">
-    </div>
-
-    <div class="section">
-        <div class="organizer-list is-flex is-flex-wrap-wrap is-justify-content-center">
-            {% for child in this.children.include_undiscoverable(true).filter(F.sort_index < 2) %}
-            <div class="">
-                {{ render_organizer(child) }}
-            </div>
-            {% endfor %}
+            {{ this.body }}
         </div>
-    </div>
 
-    <div class="section">
-        <div class="organizer-list is-flex is-flex-wrap-wrap is-justify-content-center">
-            {% for child in this.children.include_undiscoverable(true).filter(F.sort_index > 1) %}
-            <div class="">
-                {{ render_organizer(child) }}
+        <div class="section">
+        </div>
+
+        <div class="section">
+            <div class="organizer-list is-flex is-flex-wrap-wrap is-justify-content-center">
+                {% for child in this.children.include_undiscoverable(true).filter(F.sort_index < 2) %}
+                <div class="">
+                    {{ render_organizer(child) }}
+                </div>
+                {% endfor %}
             </div>
-            {% endfor %}
+        </div>
+
+        <div class="section">
+            <div class="organizer-list is-flex is-flex-wrap-wrap is-justify-content-center">
+                {% for child in this.children.include_undiscoverable(true).filter(F.sort_index > 1) %}
+                <div class="">
+                    {{ render_organizer(child) }}
+                </div>
+                {% endfor %}
+            </div>
         </div>
     </div>
 </section>
