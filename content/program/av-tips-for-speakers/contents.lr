@@ -4,8 +4,6 @@ title: AV Tips for Speakers
 ---
 body:
 
-## AV Tips for Remote Speakers (live and pre-recorded)
-
 _Adapted from PyCon AU_ [_https://2020.pycon.org.au/speakers/tips_](https://2020.pycon.org.au/speakers/tips/)
 
 _We strongly recommend watching this tech tips video from Next Day Video:_ [_https://www.youtube.com/watch?v=hHGs839Y6iM_](https://www.youtube.com/watch?v=hHGs839Y6iM)
@@ -99,3 +97,5 @@ We try to recommend hardware that's widely available and reasonably affordable.
 *   can be mounted on a tripod
 ---
 show_in_menu: yes
+---
+sort_index: 1
