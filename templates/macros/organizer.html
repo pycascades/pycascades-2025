@@ -17,29 +17,22 @@
     </div>
     <footer class="card-footer">
         {% if organizer.email %}
-        <p class="card-footer-item">
-            <a class="title is-2" href="mailto:{{ organizer.email }}">
-                @
-            </a>
-        </p>
+        <a class="card-footer-item" href="mailto:{{ organizer.email }}">
+            @
+        </a>
         {% endif %}
+
         {% if organizer.mastodon_url %}
-        <p class="card-footer-item">
-            <a href="{{ organizer.mastodon_url }}">
-                <img src="{{ '/static/mastodon.svg' | asseturl }}" width="35" />
-            </a>
-        </p>
+        <a class="card-footer-item" href="{{ organizer.mastodon_url }}">
+            <img src="{{ '/static/mastodon.svg' | asseturl }}" width="35" />
+        </a>
         {% endif %}
 
         {% if organizer.twitter_handle %}
-        <p class="card-footer-item">
-            <a href="https://www.twitter.com/@{{organizer.twitter_handle}}">
-                <img src="{{ '/static/x.svg' | asseturl }}" width="35" />
-            </a>
-        </p>
+        <a class="card-footer-item" href="https://www.twitter.com/@{{organizer.twitter_handle}}">
+            <img src="{{ '/static/x.svg' | asseturl }}" width="35" />
+        </a>
         {% endif %}
-
-
     </footer>
 </div>
 {% endmacro %}

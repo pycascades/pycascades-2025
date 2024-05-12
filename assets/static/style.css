@@ -35,6 +35,10 @@
     --bulma-navbar-item-img-max-height: 50px;
 }
 
+.card {
+    --bulma-card-footer-padding: 0;
+}
+
 .navbar-brand>.navbar-item {
     padding-bottom: 0;
 }
@@ -49,6 +53,14 @@
 
 .organizer-card {
     max-width: 350px;
+}
+
+.organizer-card .card-footer-item {
+    font-size: 2.5rem;
+}
+
+.organizer-card .card-footer-item img {
+    fill: #7100FF;
 }
 
 .mastodon-verification {
