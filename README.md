@@ -52,6 +52,17 @@ new page to be the child of. For example, to add a new page under the "about" se
 6. Attachments can be added as well, for more information see the
 [Lektor docs](https://www.getlektor.com/docs/content/attachments/).
 
+## Adding Organizers
+1. Navigate to `http://127.0.0.1:5000/about/the-team`
+2. Click the pencil icon on the top right corner
+3. Click `Add Page` in the `Page Actions` on the left side of the screen
+4. Set your title, and ID
+    - Note: you cannot choose a model here, because it is automatically selected to be a `blog-post`
+    model, because the `news` page uses the `blog` model, which specifies that child pages use the
+    `blog-post` model.
+5. Fill out the additional fields on the next page
+6. Add an attachment called `profile.jpg` that will be used as their photo on the team page
+
 ## Adding News Posts
 1. Navigate to `http://127.0.0.1:5000/news/`
 2. Click the pencil icon on the top right corner
