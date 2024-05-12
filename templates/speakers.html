@@ -3,10 +3,14 @@
   {{ this.title }}
 {% endblock %}
 {% block body %}
-  <h2>{{ this.title }}</h2>
-  <ul>
-    {% for child in this.pagination.items %}
-      <li>{{ child.name }}</li>
-    {% endfor %}
-  </ul>
+  <section class="section">
+    <div class="content">
+      <h2>{{ this.title }}</h2>
+      <ul>
+        {% for child in this.children %}
+          <li>{{ child.name }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
 {% endblock %}

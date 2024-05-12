@@ -1,3 +1,5 @@
 _model: speakers
 ---
 title: Speakers
+---
+show_in_menu: no
