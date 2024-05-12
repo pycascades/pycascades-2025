@@ -1,7 +1,56 @@
+@font-face {
+    font-family: '05Brevia-Medium';
+    src: url('/static/fonts/05Brevia-Medium-webfont.woff2') format('woff2'),
+        url('/static/fonts/05Brevia-Medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '09Brevia-Bold';
+    src: url('/static/fonts/09Brevia-Bold-webfont.woff2') format('woff2'),
+        url('/static/fonts/09Brevia-Bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    /* --bulma-primary: #7100FF; */
+    --bulma-primary-h: 266.59deg;
+    --bulma-primary-s: 100%;
+    --bulma-primary-l: 50%;
+
+    /* --bulma-primary-invert: #FFFFFF; */
+    --bulma-primary-invert-h: 0deg;
+    --bulma-primary-invert-s: 0%;
+    --bulma-primary-invert-l: 100%;
+
+    --bulma-link-text: #7100FF;
+
+    --bulma-family-primary: "05Brevia-Medium", sans-serif;
+    --bulma-family-title: "09Brevia-Bold", sans-serif;
+}
+
+.navbar {
+    --bulma-navbar-item-img-max-height: 50px;
+}
+
+.navbar-brand>.navbar-item {
+    padding-bottom: 0;
+}
+
+.nav-icon>img {
+    height: 100px;
+}
+
 .organizer-list {
     gap: 32px;
 }
 
 .organizer-card {
     max-width: 350px;
+}
+
+.mastodon-verification {
+    visibility: hidden;
 }
