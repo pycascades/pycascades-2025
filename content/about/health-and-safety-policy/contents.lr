@@ -6,11 +6,11 @@ show_in_menu: yes
 ---
 body:
 
-## PyCascades in-person attendance requirements
+### PyCascades in-person attendance requirements
 
 Important Note: In tradition with our past 2 years of a successful remote PyCascades Conference, we are continuing to offer a remote-only option for attendees, speakers, volunteers, and organizers, who are not able to or do not wish to attend the conference in-person! We will be sharing more information on this when we announce ticket sales.
 
-## Policy Overview
+### Policy Overview
 
 *   Mandatory Masks Required Indoors
 *   Vaccine or Negative COVID-19 Test Requirement
@@ -21,7 +21,7 @@ Important Note: In tradition with our past 2 years of a successful remote PyCasc
 
 - - -
 
-## Mandatory Masks Required Indoors
+### Mandatory Masks Required Indoors
 
 **While many municipalities’ mask mandates have been lifted, masks will still be required to be worn at the event.**
 
@@ -31,7 +31,7 @@ Masks do not need to be worn when in outdoor spaces and while actively eating fo
 
 Note: Face shields are NOT a good substitute for face masks because they do not offer the same protection. Read more at [Canadian Centre for Occupational Health and Safety (CCHOS)](https://www.ccohs.ca/products/publications/covid19-face-shields/)  
 
-## Vaccine or Negative COVID-19 Test Requirement
+### Vaccine or Negative COVID-19 Test Requirement
 
 All attendees **must show proof of COVID-19 vaccination OR a negative COVID-19 test** upon first entry to the event. Attendee badges will be used as proof of vaccination or negative test validation throughout the event, each participant will need to pick up their own badge.
 
@@ -59,7 +59,7 @@ In lieu of proof of vaccination, participants may instead show proof of a negati
 *   The test may NOT be an unproctored at-home test. Tests must be administered by a verified provider, either locally in Vancouver or virtually before you travel from your home city (if time permits).
 *   The test results must include your name and the date and time of the test.
 
-## Other Testing Encouraged
+### Other Testing Encouraged
 
 We strongly encourage attendees to test themselves for COVID before and during the conference. Rapid tests are available from several places:
 
@@ -69,7 +69,7 @@ We strongly encourage attendees to test themselves for COVID before and during t
 
 Additionally, we intend to provide free tests to attendees who need them, depending on availability. **DO NOT PERFORM YOUR TEST AT THE VENUE -** if you make use of rapid tests, please perform your test at your home, hotel room, or other private space, and do not bring your completed test to the venue.  
 
-## Onsite Health + Safety Measures
+### Onsite Health + Safety Measures
 
 Please expect the following measures to be in place at the event.
 
@@ -87,11 +87,11 @@ Please expect the following measures to be in place at the event.
 
 At a minimum, we will be following all mandated venue, municipality, and province guidelines. **This list, and all protocols, are subject to change as the fluid COVID-19 situation changes.**
 
-## Commitment to Compliance
+### Commitment to Compliance
 
 PyCascades takes this policy very seriously and will therefore enforce a 3-strike rule. Anyone who violates these guidelines on three separate accounts, such as continuing not to wear a proper mask or disregarding social distancing, is subject to removal from the conference.
 
-## Thanks
+### Thanks
 
 This COVID policy is largely based on the policy from KubeCon + CloudNativeCon - thank you to the CNCF for allowing us to modify & re-use your content.  
   
@@ -99,6 +99,6 @@ Thank you to Dr. Shweta Bansal, Associate Professor of Biology at Georgetown Uni
   
 Additionally, thank you to Peter Burkholder and the rest of the DevOpsDays organizers for sharing your experiences and lessons from implementing health and safety policies at your own conferences.
 
-## [**Read our full COVID Health & Safety FAQ here.**](/about/covid-faq/)
+### [**Read our full COVID Health & Safety FAQ here.**](/about/covid-faq/)
 ---
 sort_index: 6
