@@ -90,3 +90,5 @@ All reports will be kept confidential where legally possible. In some cases a pu
 This code of conduct is largely based on the [Write The Docs Code of Conduct](http://www.writethedocs.org/code-of-conduct/), which in turn is based on the [Django Project Code of Conduct](https://www.djangoproject.com/conduct/) and the original text of the Speak Up! project, inspired in its turn by the Fedora Project, as well as the Python Mentorship Project and many others.
 ---
 show_in_menu: yes
+---
+sort_index: 2

@@ -1,77 +1,96 @@
 <!DOCTYPE html>
 <html data-theme="light">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>
-      {% block title %}
-        Welcome
-      {% endblock %}— PyCascades 2025
-    </title>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css" />
-    <link rel="stylesheet" href="{{ '/static/style.css'|asseturl }}" />
-  </head>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>
+    {% block title %}
+    Welcome
+    {% endblock %}— PyCascades 2025
+  </title>
 
-  <body class="has-navbar-fixed-top">
-    <nav class="navbar is-fixed-top">
-      <div class="navbar-brand">
-        <div class="navbar-item">
-          <a href="/" class="nav-link">
-            <div class="nav-icon">
-              <img src="{{ '/static/header-logo.png'|asseturl }}" />
-            </div>
-          </a>
-        </div>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css" />
+  <link rel="stylesheet" href="{{ '/static/style.css'|asseturl }}" />
+</head>
+
+<body class="has-navbar-fixed-top">
+  <nav class="navbar is-fixed-top is-primary">
+    <div class="navbar-brand">
+      <div class="navbar-item">
+        <a href="/" class="nav-link">
+          <div class="nav-icon">
+            <img src="{{ '/static/header-logo.png'|asseturl }}" height="200" />
+          </div>
+        </a>
       </div>
+    </div>
 
-      {# TODO: This menu disappears on small screens, need to consult the bulma docs #}
-      {# https://bulma.io/documentation/components/navbar/ #}
-      <div class="navbar-menu">
-        <div class="navbar-start">
-          <div class="navbar-item has-dropdown is-hoverable">
-            <a href="{{ '/about'|url }}" class="navbar-link is-arrowless">About</a>
+    {# TODO: This menu disappears on small screens, need to consult the bulma docs #}
+    {# https://bulma.io/documentation/components/navbar/ #}
+    <div class="navbar-menu">
+      <div class="navbar-start">
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a href="{{ '/about'|url }}" class="navbar-link is-arrowless">About</a>
 
-            <div class="navbar-dropdown">
-              {% for page in site.query('/about').filter(F.show_in_menu == True) %}
-                <a class="navbar-item" href="{{ page|url }}">{{ page.title }}</a>
-              {% endfor %}
-            </div>
+          <div class="navbar-dropdown">
+            {% for page in site.query('/about').filter(F.show_in_menu == True).order_by('sort_index', 'name') %}
+            <a class="navbar-item" href="{{ page|url }}">{{ page.title }}</a>
+            {% endfor %}
           </div>
-
-          <div class="navbar-item has-dropdown is-hoverable">
-            <a href="{{ '/attending'|url }}" class="navbar-link is-arrowless">Attending</a>
-
-            <div class="navbar-dropdown">
-              {% for page in site.query('/attending').filter(F.show_in_menu == True) %}
-                <a class="navbar-item" href="{{ page|url }}">{{ page.title }}</a>
-              {% endfor %}
-            </div>
-          </div>
-
-          <div class="navbar-item has-dropdown is-hoverable">
-            <a href="{{ '/program'|url }}" class="navbar-link is-arrowless">Program</a>
-
-            <div class="navbar-dropdown">
-              {% for page in site.query('/program').filter(F.show_in_menu == True) %}
-                <a class="navbar-item" href="{{ page|url }}">{{ page.title }}</a>
-              {% endfor %}
-            </div>
-          </div>
-
-          <a class="navbar-item" href="{{ '/news'|url }}">News</a>
         </div>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a href="{{ '/attending'|url }}" class="navbar-link is-arrowless">Attending</a>
+
+          <div class="navbar-dropdown">
+            {% for page in site.query('/attending').filter(F.show_in_menu == True).order_by('sort_index', 'name') %}
+            <a class="navbar-item" href="{{ page|url }}">{{ page.title }}</a>
+            {% endfor %}
+          </div>
+        </div>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a href="{{ '/program'|url }}" class="navbar-link is-arrowless">Program</a>
+
+          <div class="navbar-dropdown">
+            {% for page in site.query('/program').filter(F.show_in_menu == True).order_by('sort_index', 'name') %}
+            <a class="navbar-item" href="{{ page|url }}">{{ page.title }}</a>
+            {% endfor %}
+          </div>
+        </div>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a href="{{ '/program'|url }}" class="navbar-link is-arrowless">Sponsors</a>
+
+          <div class="navbar-dropdown">
+            {% for page in site.query('/sponsors').filter(F.show_in_menu == True).order_by('sort_index', 'name') %}
+            <a class="navbar-item" href="{{ page|url }}">{{ page.title }}</a>
+            {% endfor %}
+          </div>
+        </div>
+
+        <a class="navbar-item navbar-link is-arrowless" href="{{ '/news'|url }}">News</a>
       </div>
-    </nav>
+    </div>
+  </nav>
 
-    {% block body %}
+  {% block body %}
 
-    {% endblock %}
+  {% endblock %}
 
-    <footer class="footer">
-      <a href="{{ '/about/code-of-conduct'|url }}">Code of Conduct</a>
-      <span>|</span>
-      <a href="https://fosstodon.org/@pycascades">Mastodon</a>
-    </footer>
-  </body>
+  <footer class="footer">
+    <a href="{{ '/about/code-of-conduct'|url }}">Code of Conduct</a>
+    <span>|</span>
+    <a href="https://fosstodon.org/@pycascades">Mastodon</a>
+  </footer>
+
+  <div className="mastodon-verification">
+    <a rel="me" href="https://fosstodon.org/@pycascades"></a>
+    {% for organizer in site.query('/about/the-team').include_undiscoverable(true).filter(F.mastodon_url.startswith('https://')) %}
+    <a rel="me" href="{{ organizer.mastodon_url }}"></a>
+    {% endfor %}
+  </div>
+</body>
+
 </html>

@@ -11,7 +11,7 @@
       {{ this.body }}
 
       <ul>
-        {% for child in this.pagination.items.filter(F.show_in_menu == True) %}
+        {% for child in this.children.filter(F.show_in_menu == True).order_by('sort_index', 'name') %}
           <li>
             <a href="{{ child|url }}">{{ child.title }}</a>
           </li>
