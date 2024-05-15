@@ -1,0 +1,49 @@
+{% extends 'layout.html' %}
+{% from 'macros/blog.html' import render_blog_post %}
+
+{% block title %}
+{{ this.title }}
+{% endblock %}
+
+{% block body %}
+<div class="home">
+    <section class="hero is-large with-background">
+        <div class="hero-body">
+            <h1 class="title is-1">PyCascades</h1>
+            <h3 class="subtitle is-3">2025</h3>
+        </div>
+
+        <div class="image-attribution">
+            Header photo © <a href="http://commons.wikimedia.org/wiki/User:Senapa">Steven Pavlov</a> / CC BY-SA 4.0
+        </div>
+    </section>
+
+    <section class="hero is-medium info">
+        <div class="hero-body">
+            <div class="columns">
+                <div class="column">
+                    <div class="block">
+                        <h2 class="title is-2">Portland, Oregon</h2>
+                    </div>
+
+                    <div class="block">
+                        <h4 class="subtitle is-4">Revolution Hall</h4>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="block">
+                        <p>
+                            PyCascades is a regional PyCon in the Pacific Northwest, celebrating the west
+                            coast Python developer and user community. Our organizing team includes members
+                            of the Vancouver, Seattle, and Portland Python user groups.
+                        </p>
+                    </div>
+                    <div class="block">
+                        <h5 class="title is-5">Dates To Be Announced Soon</h5>
+                    </div>
+                </div>
+            </div>
+    </section>
+</div>
+{% endblock %}

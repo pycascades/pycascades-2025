@@ -15,24 +15,63 @@
 }
 
 :root {
-    /* --bulma-primary: #7100FF; */
-    --bulma-primary-h: 266.59deg;
-    --bulma-primary-s: 100%;
-    --bulma-primary-l: 50%;
+    --pycascades-primary: #5d2ec8;
+    --pycascades-primary-h: 258.11deg;
+    --pycascades-primary-s: 62.35%;
+    --pycascades-primary-l: 48.33%;
+
+    --pycascades-bright-purple: #7100FF;
+    --pycascades-bright-purple-h: 266.59deg;
+    --pycascades-bright-purple-s: 100%;
+    --pycascades-bright-purple-l: 50%;
+
+    --bulma-primary-h: var(--pycascades-primary-h);
+    --bulma-primary-s: var(--pycascades-primary-s);
+    --bulma-primary-l: var(--pycascades-primary-l);
 
     /* --bulma-primary-invert: #FFFFFF; */
     --bulma-primary-invert-h: 0deg;
     --bulma-primary-invert-s: 0%;
     --bulma-primary-invert-l: 100%;
 
-    --bulma-link-text: #7100FF;
+    --bulma-link-text: var(--pycascades-bright-purple);
 
     --bulma-family-primary: "05Brevia-Medium", sans-serif;
     --bulma-family-title: "09Brevia-Bold", sans-serif;
+
+    --bulma-navbar-height: 65px;
 }
 
 .navbar {
     --bulma-navbar-item-img-max-height: 50px;
+}
+
+.navbar.is-primary {
+    --bulma-navbar-dropdown-item-h: var(--pycascades-bright-purple-h);
+    --bulma-navbar-dropdown-item-s: var(--pycascades-bright-purple-s);
+    --bulma-navbar-dropdown-item-l: var(--pycascades-bright-purple-l);
+}
+
+.navbar-dropdown a.navbar-item:not(.is-active, .is-selected) {
+    color: var(--pycascades-bright-purple);
+}
+
+.home .hero {
+    background-image: url("/static/portland.jpg");
+}
+
+.info,
+.info .title,
+.info .subtitle,
+.home .hero,
+.home .hero .title,
+.home .hero .subtitle {
+    color: #FFFFFF;
+}
+
+.home .info {
+    background-image: linear-gradient(-180deg, #FFF 2%, #ABABAB 88%), radial-gradient(70% 103%, #7B25FB 31%, #40208A 100%);
+    background-blend-mode: multiply;
 }
 
 .card {
@@ -41,10 +80,6 @@
 
 .navbar-brand>.navbar-item {
     padding-bottom: 0;
-}
-
-.nav-icon>img {
-    height: 100px;
 }
 
 .organizer-list {
@@ -65,4 +100,14 @@
 
 .mastodon-verification {
     visibility: hidden;
+}
+
+.with-background {
+    position: relative;
+}
+
+.image-attribution {
+    position: absolute;
+    right: 16px;
+    bottom: 0;
 }

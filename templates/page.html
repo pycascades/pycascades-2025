@@ -13,6 +13,7 @@
 
       {{ this.body }}
 
+      {% if this.render_child_links %}
       <ul>
         {% for child in this.children.filter(F.show_in_menu == True).order_by('sort_index', 'name') %}
         <li>
@@ -20,6 +21,7 @@
         </li>
         {% endfor %}
       </ul>
+      {% endif %}
     </div>
   </div>
 </section>

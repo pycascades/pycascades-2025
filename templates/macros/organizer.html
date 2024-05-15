@@ -2,7 +2,11 @@
 <div class="card organizer-card">
     <div class="card-image">
         <figure class="image">
+            {% if organizer.attachments.get('profile.jpg') %}
             <img src="{{organizer.attachments.get('profile.jpg') | url}}" />
+            {% elif organizer.attachments.get('profile.png') %}
+            <img src="{{organizer.attachments.get('profile.png') | url}}" />
+            {% endif %}
         </figure>
     </div>
 
