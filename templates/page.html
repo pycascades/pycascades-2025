@@ -8,6 +8,25 @@
 {% block body %}
 <section class="section">
   <div class="container">
+    {% if this.related_pages|length > 0 %}
+    <div class="is-pulled-right">
+      <nav class="message is-dark">
+        <div class="message-header">
+          <p>See Also:</p>
+        </div>
+        <div class="message-body">
+          <ul>
+            {% for related in this.related_pages %}
+            {% set related_page = site.get(related) %}
+            <li>
+              <a href="{{ related_page|url }}">{{related_page.title}}</a>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </nav>
+    </div>
+    {% endif %}
     <div class="content">
       <h2>{{ this.title }}</h2>
 

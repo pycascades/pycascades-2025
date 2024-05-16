@@ -92,3 +92,8 @@ This code of conduct is largely based on the [Write The Docs Code of Conduct](ht
 show_in_menu: yes
 ---
 sort_index: 2
+---
+related_pages:
+
+/about/code-of-conduct-reporting-guide
+/about/code-of-conduct-response-playbook
