@@ -24,10 +24,15 @@
           </div>
         </a>
       </div>
+
+      <a class="navbar-burger" role="button" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
     </div>
 
-    {# TODO: This menu disappears on small screens, need to consult the bulma docs #}
-    {# https://bulma.io/documentation/components/navbar/ #}
     <div class="navbar-menu">
       <div class="navbar-start">
         <div class="navbar-item has-dropdown is-hoverable">
@@ -94,5 +99,14 @@
     {% endfor %}
   </div>
 </body>
+
+<script>
+  function openMenu() {
+    console.log('toggling classes');
+    document.querySelector('.navbar-burger').classList.toggle('is-active');
+    document.querySelector('.navbar-menu').classList.toggle('is-active');
+  }
+  document.querySelector('.navbar-burger').addEventListener('click', openMenu);
+</script>
 
 </html>

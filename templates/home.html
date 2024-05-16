@@ -7,7 +7,7 @@
 
 {% block body %}
 <div class="home">
-    <section class="hero is-large is-relative">
+    <section class="hero is-large is-relative city-image">
         {# <div class="is-overlay background-image">
         </div>
         <div class="is-overlay background-cover">
@@ -49,6 +49,55 @@
                     </div>
                 </div>
             </div>
+    </section>
+
+    <section class="hero is-medium">
+        <div class="hero-body">
+            <div class="mailing-list block">
+                <h4 class="title is-4">Follow the Conversation</h4>
+                <p class="block">
+                    Join our newsletter to hear the latest news as soon as we announce them.
+                </p>
+                <p class="block">
+                    We promise, we won't overload your inbox.
+                </p>
+                <form
+                    action="//pycascades.us15.list-manage.com/subscribe/post?u=910a586d174a45ddb1125ad4e&amp;id=1f87464654"
+                    method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank"
+                    class="">
+                    <div class="field has-addons">
+                        <div class="control is-expanded">
+                            <input class="input" type="email" name="EMAIL" value="" placeholder="Your Email"
+                                required="required">
+                        </div>
+                        <div class="control">
+                            <button class="button is-primary" type="submit"><i class="fa-solid fa-paper-plane"></i>
+                                Subscribe
+                            </button>
+                        </div>
+                    </div>
+
+
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                        <input type="text" name="b_910a586d174a45ddb1125ad4e_1f87464654" tabindex="-1" value="">
+                    </div>
+                </form>
+            </div>
+            <div class="columns mt-6">
+                <div class="column">
+                    <a href="https://fosstodon.org/@pycascades">
+                        <img src="{{ '/static/mastodon.svg' | asseturl }}" width="35" />
+                    </a>
+                    You can follow us
+                </div>
+                <div class="column">
+                    <a href="https://join.slack.com/t/pycascades/shared_invite/zt-1l5libchy-RyQi1Kh0PS8DXCfhxhHZhQ">
+                        <img src="{{ '/static/slack.svg' | asseturl }}" width="35" />
+                    </a>
+                    Or join our Slack workspace
+                </div>
+            </div>
+        </div>
     </section>
 </div>
 {% endblock %}

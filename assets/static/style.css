@@ -56,25 +56,22 @@
     color: var(--pycascades-bright-purple);
 }
 
-.home .hero,
-.background-image {
+.city-image {
     background-image: url("/static/portland.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
 }
 
-.home .hero>.hero-body,
-.background-cover {
+.city-image>.hero-body {
     background-image: linear-gradient(rgba(91, 91, 30, 0.4), rgba(0, 0, 0, 0.8));
 }
 
+.city-image,
+.city-image .title,
 .info,
 .info .title,
-.info .subtitle,
-.home .hero,
-.home .hero .title,
-.home .hero .subtitle {
+.info .subtitle {
     color: #FFFFFF;
 }
 
@@ -119,4 +116,12 @@
 
 .see-also {
     margin-left: 8px;
+}
+
+#lektor-edit-link {
+    margin-top: 65px !important;
+}
+
+img:hover {
+    fill: red;
 }

@@ -102,26 +102,16 @@ GitHub automatically.
 
 ## TODO
 - Write docs
-    - Adding and Editing Organizers
     - Adding and Editing Speakers
-- Hide pages that are not currently needed
-    - Speakers
-    - Schedule
 - Add model for Schedule
     - Including Docs
-- Add the ability to order pages
-- Add related pages to page model and render in page.html
-    - Will also need a toggle to show related pages.
-    - Needed for COC, Health and Safety Policy
 - Finish base layout and styling
     - Speakers
 - Add in-page links in page overviews
     - Health and Safety Policy
     - Health and Safety FAQ
+- Add YouTube video embed to attending/attending-remotely page
 - Fill out the content for the following pages:
-    - Home Page
-    - About
-        - The Team
     - Attending
         - Attending In Person (partially completed)
         - Tour Portland
