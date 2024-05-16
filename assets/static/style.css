@@ -56,8 +56,17 @@
     color: var(--pycascades-bright-purple);
 }
 
-.home .hero {
+.home .hero,
+.background-image {
     background-image: url("/static/portland.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.home .hero>.hero-body,
+.background-cover {
+    background-image: linear-gradient(rgba(91, 91, 30, 0.4), rgba(0, 0, 0, 0.8));
 }
 
 .info,
@@ -100,10 +109,6 @@
 
 .mastodon-verification {
     visibility: hidden;
-}
-
-.with-background {
-    position: relative;
 }
 
 .image-attribution {
