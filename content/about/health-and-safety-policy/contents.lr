@@ -2,7 +2,7 @@ _model: page
 ---
 title: Health and Safety Policy
 ---
-show_in_menu: yes
+show_in_menu: no
 ---
 body:
 
@@ -104,3 +104,5 @@ Additionally, thank you to Peter Burkholder and the rest of the DevOpsDays organ
 sort_index: 6
 ---
 related_pages: /about/covid-faq/
+---
+_hidden: yes
