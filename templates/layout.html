@@ -55,6 +55,7 @@
           </div>
         </div>
 
+        {% if site.query('/program').filter(F.show_in_menu == True).count() > 0 %}
         <div class="navbar-item has-dropdown is-hoverable">
           <a href="{{ '/program'|url }}" class="navbar-link is-arrowless">Program</a>
 
@@ -64,7 +65,9 @@
             {% endfor %}
           </div>
         </div>
-        {# 
+        {% endif %}
+
+        {% if site.query('/sponsors').filter(F.show_in_menu == True).count() > 0 %}
         <div class="navbar-item has-dropdown is-hoverable">
           <a href="{{ '/program'|url }}" class="navbar-link is-arrowless">Sponsors</a>
 
@@ -74,8 +77,11 @@
             {% endfor %}
           </div>
         </div>
- #}
+        {% endif %}
+
+        {% if site.get('/news').hidden == False %}
         <a class="navbar-item navbar-link is-arrowless" href="{{ '/news'|url }}">News</a>
+        {% endif %}
       </div>
     </div>
   </nav>
