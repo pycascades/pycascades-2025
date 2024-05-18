@@ -7,22 +7,24 @@ show_in_menu: yes
 content:
 
 #### markdown ####
-title: Watch The Talks
----
+title: Food and Drinks
+----
+hidden: yes
+----
 body:
-
-***[Information TBD]***
-
-### Food and Drinks
 
 We'll have coffee, tea, water, and snacks available in ***[TBD]***. For lunch, we take an extended break to allow attendees a chance to head out into Portland to enjoy the local fare.
 
 **No food or drinks are allowed in the talk spaces.**
-
-### **Outside the talks**
-
-The conference spaces are available to attendees from ***[TBD]*** AM to ***[TBD]*** PM Saturday and Sunday - feel free to stick around in Revolution Hall to socialize after the conference. Keep in mind that our COVID policy and Code of Conduct apply any time you're in the space.
+#### markdown ####
+title: Outside the talks
+----
+hidden: yes
+----
+body: The conference spaces are available to attendees from ***[TBD]*** AM to ***[TBD]*** PM Saturday and Sunday - feel free to stick around in Revolution Hall to socialize after the conference. Keep in mind that our COVID policy and Code of Conduct apply any time you're in the space.
 ---
 sort_index: 1
 ---
 _hidden: yes
+---
+body: We'll have more information about attending in person when we get closer to the event, stay tuned.
