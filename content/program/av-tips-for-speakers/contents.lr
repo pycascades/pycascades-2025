@@ -99,3 +99,5 @@ We try to recommend hardware that's widely available and reasonably affordable.
 show_in_menu: no
 ---
 sort_index: 1
+---
+_hidden: yes
