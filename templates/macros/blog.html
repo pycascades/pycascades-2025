@@ -17,7 +17,9 @@
 
   <div class="content">
     {{ post.intro }}
-    {% if not from_index %}
+    {% if from_index %}
+    <a href="{{ post | url }}">Read more...</a>
+    {% else %}
     {{ post.body }}
     {% endif %}
   </div>
