@@ -4,9 +4,12 @@ title: Attending in Person
 ---
 show_in_menu: yes
 ---
-body:
+content:
 
-### Watch The Talks
+#### markdown ####
+title: Watch The Talks
+---
+body:
 
 ***[Information TBD]***
 

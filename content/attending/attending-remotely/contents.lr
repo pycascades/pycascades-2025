@@ -4,25 +4,44 @@ title: Attending Remotely
 ---
 show_in_menu: yes
 ---
-body:
+body: PyCascades 2025 will be offering a way for folks to attend remotely. We'll update this page when we have more information.
+---
+sort_index: 2
+---
+content:
 
-## Venueless
+#### markdown ####
+title: Venueless
+----
+hidden: yes
+----
+body:
 
 For our online attendees, we are holding the conference programs in **Venueless.** You'll enter Venueless via your Pretix confirmation email. Madison has helpfully created this instructional video to help you get into the platform:
 
 **NOTE: Venueless will open at [TBD] PST** _(contrary to what is said in the video)_
-
-**TODO FOR ALAN: Add Flow Block type for YouTube Video embeds**
-
-### Accessing the Platform
+#### html ####
+hidden: yes
+----
+content: <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/arLdoEznf7M?si=8F9UWBGjAh0aKKFN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+#### markdown ####
+title: Accessing the Platform
+----
+hidden: yes
+----
+body:
 
 You'll have received an order confirmation email after purchasing your ticket. This contains a link to **ticket page** that will look similar to this:
 
 ![Screenshot of a ticket page with a "Join online event" button](join-online-event.png)
 
 This button won't be available until **Friday April 5th, 2024**, when we'll turn on access to our event platform. After that you'll see the **"Join online event"** button at the top of your order. Click on the link to log into the platform and setup your account.
-
-### Setup Your Profile
+#### markdown ####
+title: Setup Your Profile
+----
+hidden: yes
+----
+body:
 
 #### First Login
 
@@ -49,16 +68,24 @@ We have added a few **optional profile questions**. They'll help you to share so
 This is how others will see your profile information when clicking on your username in the chat.
 
 ![Screenshot of a Venueless profile example. Shows the various fields with information in it.](profile.png)
-
-### Changing Your Profile
+#### markdown ####
+title: Changing Your Profile
+----
+hidden: yes
+----
+body:
 
 You can change your profile at any time by clicking on the **Gear** icon next to you name a the bottom. Or you can access it by going to [https://pycascades.venueless.events/preferences](https://pycascades.venueless.events/preferences).
 
 ![Screenshot of Venueless with an arrow to the gear icon in the bottom left of the image.](preferences.png)
 
 ![venueless-access-profile-2](change-profile.png)
-
-### Getting Help During the Event
+#### markdown ####
+title: Getting Help During the Event
+----
+hidden: yes
+----
+body:
 
 We have multiple options for you to **find your way around the platform** during the event and get help if you need it.
 
@@ -79,8 +106,12 @@ You might not find your answer in our documentation or have a specific issue tha
 For any **Code of Conduct** issues, please reach out to the Code of Conduct committee at [**Get Help > Code of Conduct**](https://example.com)**.**
 
 ![Screenshot of the Code of Conduct page in Venueless](code-of-conduct.png)
-
-### Our Sponsors
+#### markdown ####
+title: Our Sponsors
+----
+hidden: yes
+----
+body:
 
 We wouldn't be able to do any of this without the **generosity and support of our sponsors.** You can see who supported us this year by visiting the [sponsor page of our website](/program/sponsors/our-sponsors/).
 
@@ -93,13 +124,13 @@ You can reach out to attendees representing the sponsor through the **sponsor's 
 Some of our sponsors may have a virtual booth setup in Venueless during the event. You'll have an opportunity to learn more about the companies and talk to the amazing folks who work there.
 
 Make sure to stop by the booths during the day to learn more about what each of our sponsors does. Don't forget to thank them for their support!
-
-### Open Spaces / Topic Rooms
+#### markdown ####
+title: Open Spaces / Topic Rooms
+----
+hidden: yes
+----
+body:
 
 Do you have a topic that you'd like to talk about with a smaller group of people? You've met a few people and would like a place for a conversation with these folks?
 
 **Reach out to our volunteers** either in the chat or through the [**Get Help > Help Desk**](https://example.com) and we can help you find an appropriate for you to chat.
----
-sort_index: 2
----
-_discoverable: no
