@@ -1,0 +1,127 @@
+@font-face {
+    font-family: '05Brevia-Medium';
+    src: url('/static/fonts/05Brevia-Medium-webfont.woff2') format('woff2'),
+        url('/static/fonts/05Brevia-Medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '09Brevia-Bold';
+    src: url('/static/fonts/09Brevia-Bold-webfont.woff2') format('woff2'),
+        url('/static/fonts/09Brevia-Bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --pycascades-primary: #5d2ec8;
+    --pycascades-primary-h: 258.11deg;
+    --pycascades-primary-s: 62.35%;
+    --pycascades-primary-l: 48.33%;
+
+    --pycascades-bright-purple: #7100FF;
+    --pycascades-bright-purple-h: 266.59deg;
+    --pycascades-bright-purple-s: 100%;
+    --pycascades-bright-purple-l: 50%;
+
+    --bulma-primary-h: var(--pycascades-primary-h);
+    --bulma-primary-s: var(--pycascades-primary-s);
+    --bulma-primary-l: var(--pycascades-primary-l);
+
+    /* --bulma-primary-invert: #FFFFFF; */
+    --bulma-primary-invert-h: 0deg;
+    --bulma-primary-invert-s: 0%;
+    --bulma-primary-invert-l: 100%;
+
+    --bulma-link-text: var(--pycascades-bright-purple);
+
+    --bulma-family-primary: "05Brevia-Medium", sans-serif;
+    --bulma-family-title: "09Brevia-Bold", sans-serif;
+
+    --bulma-navbar-height: 65px;
+}
+
+.navbar {
+    --bulma-navbar-item-img-max-height: 50px;
+}
+
+.navbar.is-primary {
+    --bulma-navbar-dropdown-item-h: var(--pycascades-bright-purple-h);
+    --bulma-navbar-dropdown-item-s: var(--pycascades-bright-purple-s);
+    --bulma-navbar-dropdown-item-l: var(--pycascades-bright-purple-l);
+}
+
+.navbar-dropdown a.navbar-item:not(.is-active, .is-selected) {
+    color: var(--pycascades-bright-purple);
+}
+
+.city-image {
+    background-image: url("/static/portland.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.city-image>.hero-body {
+    background-image: linear-gradient(rgba(91, 91, 30, 0.4), rgba(0, 0, 0, 0.8));
+}
+
+.city-image,
+.city-image .title,
+.info,
+.info .title,
+.info .subtitle {
+    color: #FFFFFF;
+}
+
+.home .info {
+    background-image: linear-gradient(-180deg, #FFF 2%, #ABABAB 88%), radial-gradient(70% 103%, #7B25FB 31%, #40208A 100%);
+    background-blend-mode: multiply;
+}
+
+.card {
+    --bulma-card-footer-padding: 0;
+}
+
+.navbar-brand>.navbar-item {
+    padding-bottom: 0;
+}
+
+.organizer-list {
+    gap: 32px;
+}
+
+.organizer-card {
+    max-width: 350px;
+}
+
+.organizer-card .card-footer-item {
+    font-size: 2.5rem;
+}
+
+.organizer-card .card-footer-item img {
+    fill: #7100FF;
+}
+
+.mastodon-verification {
+    visibility: hidden;
+}
+
+.image-attribution {
+    position: absolute;
+    right: 16px;
+    bottom: 0;
+}
+
+.see-also {
+    margin-left: 8px;
+}
+
+#lektor-edit-link {
+    margin-top: 65px !important;
+}
+
+img:hover {
+    fill: red;
+}
