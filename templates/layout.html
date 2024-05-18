@@ -79,7 +79,7 @@
         </div>
         {% endif %}
 
-        {% if site.get('/news').hidden == False %}
+        {% if site.get('/news')._hidden == False %}
         <a class="navbar-item navbar-link is-arrowless" href="{{ '/news'|url }}">News</a>
         {% endif %}
       </div>
