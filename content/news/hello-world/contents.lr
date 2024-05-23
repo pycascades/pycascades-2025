@@ -2,11 +2,15 @@ title: Hello, World
 ---
 author: Angel & Ben
 ---
-body:
+pub_date: 2024-05-18
+---
+intro:
 
 Hello PyCon attendees!
 
 You are the lucky ones that heard about PyCascades 2025 first!! Don’t you feel special?! 💜 
+---
+body:
 
 Next year PyCascades is going to be in Portland, OR. Back at Revolution Hall.
 Make sure you save *February 8th and 9th* to join us there for two days of fun
@@ -19,5 +23,4 @@ July. If you’d like to join us send an email to
 Mentoring sessions do not commit you to submitting a proposal nor do they
 guarantee a speaker spot, but they’ll be fun and informative. Can’t wait to see
 you all there!!  (Well maybe not all 3000 of you, but as many as Rev Hall can
-hold.) --- intro: PyCascades is back at Rev Hall in Portland! --- pub_date:
-2024-05-18
+hold.)
