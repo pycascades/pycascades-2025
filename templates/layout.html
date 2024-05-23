@@ -36,7 +36,7 @@
     <div class="navbar-menu">
       <div class="navbar-start">
         <div class="navbar-item has-dropdown is-hoverable">
-          <a href="{{ '/about'|url }}" class="navbar-link is-arrowless">About</a>
+          <a href="{{ '/about/the-conference'|url }}" class="navbar-link is-arrowless">About</a>
 
           <div class="navbar-dropdown">
             {% for page in site.query('/about').filter(F.show_in_menu == True).order_by('sort_index', 'name') %}
@@ -46,7 +46,7 @@
         </div>
 
         <div class="navbar-item has-dropdown is-hoverable">
-          <a href="{{ '/attending'|url }}" class="navbar-link is-arrowless">Attending</a>
+          <a href="{{ '/attending/venue'|url }}" class="navbar-link is-arrowless">Attending</a>
 
           <div class="navbar-dropdown">
             {% for page in site.query('/attending').filter(F.show_in_menu == True).order_by('sort_index', 'name') %}
@@ -57,7 +57,7 @@
 
         {% if site.query('/program').filter(F.show_in_menu == True).count() > 0 %}
         <div class="navbar-item has-dropdown is-hoverable">
-          <a href="{{ '/program'|url }}" class="navbar-link is-arrowless">Program</a>
+          <a href="{{ '/program/cfp'|url }}" class="navbar-link is-arrowless">Program</a>
 
           <div class="navbar-dropdown">
             {% for page in site.query('/program').filter(F.show_in_menu == True).order_by('sort_index', 'name') %}
@@ -69,7 +69,7 @@
 
         {% if site.query('/sponsors').filter(F.show_in_menu == True).count() > 0 %}
         <div class="navbar-item has-dropdown is-hoverable">
-          <a href="{{ '/program'|url }}" class="navbar-link is-arrowless">Sponsors</a>
+          <a href="{{ '/sponsors'|url }}" class="navbar-link is-arrowless">Sponsors</a>
 
           <div class="navbar-dropdown">
             {% for page in site.query('/sponsors').filter(F.show_in_menu == True).order_by('sort_index', 'name') %}
