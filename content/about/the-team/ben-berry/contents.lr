@@ -1,6 +1,6 @@
 name: Ben Berry
 ---
-bio: Ben is an SRE based in Seattle. He currently works on a private Platform-as-a-Service, and has previously worked in SRE and DevOps roles at the Allen Institute for Cell Science, Blue Nile, and Intermedia. When he’s not working, Ben is out backpacking, running, camping, and fiddling around with astrophotography.
+bio: Ben is an SRE based in Seattle. He currently works on a private Platform-as-a-Service, and has previously worked in SRE and DevOps roles at the Allen Institute for Cell Science, Blue Nile, and Intermedia. When he’s not working, Ben is out playing ice hockey, hiking, camping, and fiddling around with photography.
 ---
 email: ben@pycascades.com
 ---
@@ -11,8 +11,6 @@ role: Conference Co-chair
 mastodon_url: https://fosstodon.org/@benb
 ---
 sort_index: 1
----
-twitter_handle: bengerman13
 ---
 _hidden: no
 ---
