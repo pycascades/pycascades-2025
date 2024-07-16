@@ -1,0 +1,106 @@
+title: Proposal Review Process
+---
+author: Vishal
+---
+pub_date: 2024-07-15
+---
+intro:
+
+Curious about how we review proposals? In this blog post, we'll share our review process and give tips on how NOT to write a proposal.
+---
+body:
+
+## Introduction
+
+[Our CFP (Call for Proposals) opens on **Sunday, August 11, 2024**](https://2025.pycascades.com/program/cfp/) and will close on **September 15, 2024**. During our proposal review process, We usually have 4-6 volunteers (plus one of our co-Chairs and the Program Chair) who review and discuss every one of the talks submitted for consideration. 
+
+## The Proposal Review Process
+
+We start with an anonymous review of anonymous proposals. It’s important that you don’t include any personally identifiable information (such as your name or links to your personal website or socials) in your proposal other than in the **Speaker Profile** section which is hidden from reviewers. 
+
+During this initial review, for each proposal, each reviewer will vote (Yes, No, Maybe) and give a brief (anonymized) rationale for their vote. We’ll then meet as a team to review each proposal and come to a consensus Yes/No vote. We allow for proposals where there is a split decision to stay in review until we come to a final consensus—this may take multiple discussion sessions. Once we have a final list of proposals (we like to make sure we have some extras) we review it a final time as a team and make any final changes.
+
+## What are We Looking for in a Proposal?
+
+Generally speaking, we look to see that the speaker has provided enough detail for us to answer the following questions **positively**:
+
+1. What is the goal of this talk?
+2. Is the outline structured in a way that achieves this goal?
+3. Does it seem reasonable to give this talk within 25 minutes?
+4. Would the conference attendees be interested in this talk?
+5. Is the content of this talk accurate? 
+6. Does the content of this talk discriminate, stereotype or exclude any communities?
+
+As you can imagine, much of this evaluation is subjective and prone to different biases that our reviewers hold. For this reason, we like to have a diverse set of volunteers reviewing the proposals. If you are interested in being a reviewer, please email <a href="mailto:program@pycascades.com">program@pycascades.com</a>.
+
+## What Happens After the Review is Complete?
+
+Once our review is complete and we have a list of talks selected for our conference program we will email each speaker to let them know of our decision by **October 10, 2024** and publicly announce speakers on **November 9, 2024**.
+
+## Example of a Bad Proposal
+
+Our Speaker Support Chair, Andres Pineda, will be publishing a blog post on what makes a good proposal.
+
+In this post, I’ll focus on what makes a _bad proposal_ as this can also effectively communicate our selection criteria. Note that this is a completely made-up proposal and does not reflect on any proposals that we have received.
+
+------
+
+### Title
+
+Why You Should Use NumPy!
+
+### Abstract
+
+In this talk, I’ll walk through some examples that show why you can improve your data analysis code by using the amazing library NumPy! It’s highly performant, efficient and easy to use (once you get a handle of the basics).
+
+### Outline
+
+Here’s an outline of my talk:
+
+1. Introduction (5 mins)
+2. Benefits of Using NumPy (10 mins)
+3. Comparison with other packages (5 minutes)
+    - If you’re not using NumPy, you don’t know how to work with data!
+4. Coding Walkthrough (5 minutes)
+    - I’ll walk through a brief example showing how to use this library effectively.
+
+### Notes
+
+You can check out more of my content at my personal blog vishalbakshi.github.io or on Twitter @vishal_learner.
+
+------
+
+Why do we consider this a “bad” proposal? At first glance it has some good attributes: a relevant topic, a catchy title, a concise and timed outline. One glaring issue is that the speaker has included personally identifiable information in the **Notes** section. We provide a separate section for that (**Speaker Profile**) which is hidden from reviewers.
+
+Let’s see if we can answer the review questions based on this proposal:
+
+1. **What is the goal of this talk?**
+    - The speaker is (understandably) enthusiastic about the NumPy package and wants to show the audience the benefits of using it. So far so good!
+2. **Is the outline structured in a way that achieves this goal?**
+    - It’s unclear what the speaker means by “Benefits of Using NumPy”, “Comparison with Other Packages” or “Coding Walkthrough” without providing a description of those topics. Considering these three sections take up 80% of the talk, we expect concrete details about the content covered during these 20 minutes. 
+3. **Does it seem reasonable to give this talk within 25 minutes?**
+    - Not enough information is provided to assess whether the (undisclosed) content in the “Benefits of Using NumPy” and “Comparison with Other Packages” sections is _not enough_, _enough_, or _too much content_ to cover in 15 minutes. A 5 minute coding walkthrough is likely not enough to illustrate the use or effectiveness of such a complex library.
+4. **Would the conference attendees be interested in this talk?**
+    - It’s likely that Python users attending the conference will enjoy a talk on NumPy, but only if the talk is substantive (which we can’t determine from the sparse abstract and outline).
+5. **Is the content of this talk accurate?**
+    - We don’t know if the “Benefits of Using NumPy”, “Comparison with Other Packages” or “Coding Walkthrough” are accurate representations of the package’s use as the speaker has not provided enough detail.
+6. **Does the content of this talk discriminate, stereotype or exclude any communities?**
+    - Yes it does. The statement “if you’re not using NumPy, you don’t know how to work with data” is not only incorrect but is disparaging to large swaths of Pythonistas (and people who work with data in general).
+
+As you can see, this proposal misses the mark on a number of criteria. This speaker:
+
+- Provides personally identifiable information in the wrong section.
+- Does not provide enough detail in their talk outline.
+- Disparages folks who do not agree with their package preference.
+
+With a few modifications, this could be a highly effective talk on an interesting topic. For example, they could specify a list of 3-5 well-described concrete topics that will illustrate why NumPy is efficient (e.g. broadcasting, optimized C-code, and vectorization) and compare specific patterns with other libraries (e.g. compare runtime between `numpy.repeat` vs `pandas.Series.repeat`). They could also provide code examples throughout the 25 minutes to allow the audience enough time to get familiar with the syntax and logic presented.  
+
+We provide speaker support and mentorship to help folks craft effective proposals. If you are interested in receiving this support or volunteering as a mentor, please send an email to <a href="mailto:speaker-support@pycascades.com">speaker-support@pycascades.com</a>.
+
+## Conclusion
+
+We hope that this blog post gives you a general sense of how we review your talk proposals and what to consider to avoid creating a “bad” proposal. Our goal is to help the Python community curate the best proposals possible, as this will result in a rich and engaging program for the PyCascades 2025 conference. 
+
+If you have additional questions, please contact our Program Chair, Vishal Bakshi at <a href="mailto:program@pycascades.com">program@pycascades.com</a>.
+
+[Our CFP opens on **August 11, 2024**](https://2025.pycascades.com/program/cfp/). We look forward to your proposals!
