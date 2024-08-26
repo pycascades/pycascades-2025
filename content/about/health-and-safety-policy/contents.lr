@@ -2,107 +2,26 @@ _model: page
 ---
 title: Health and Safety Policy
 ---
-show_in_menu: no
+show_in_menu: yes
 ---
 body:
 
-### PyCascades in-person attendance requirements
+### Vaccinations are Encouraged
 
-Important Note: In tradition with our past 2 years of a successful remote PyCascades Conference, we are continuing to offer a remote-only option for attendees, speakers, volunteers, and organizers, who are not able to or do not wish to attend the conference in-person! We will be sharing more information on this when we announce ticket sales.
+We encourage PyCascades attendees to use at-home/antigen/rapid tests before they attend each day.
 
-### Policy Overview
+### Attend Online
 
-*   Mandatory Masks Required Indoors
-*   Vaccine or Negative COVID-19 Test Requirement
-    *   Vaccine Requirement
-    *   Negative COVID-19 Test Requirement
-*   Other Testing Encouraged
-*   Onsite Health + Safety Measures
+We are going to continue investing in making PyCascades an excellent option for folks who don’t feel comfortable attending a masked event, or find travel to Seattle inconvenient, or want to hang with the awesome PyCascades volunteer team, or who would prefer online for any reason at all.
 
-- - -
+### Easy Refunds
 
-### Mandatory Masks Required Indoors
+We expect people to stay home if they may be contagious. If you are feeling sick or exhibiting symptoms of COVID-19, or test positive for COVID-19, prior to the start of the conference, or on any day of the conference, please contact us at organizers@pycascades.com, and we will exchange your ticket type for an online ticket or grant you a refund. Onsite attendees will be able to watch talks online while they recover, wait for the results of a COVID test or sort out any kind of unexpected allergy or “weird cold.”
 
-**While many municipalities’ mask mandates have been lifted, masks will still be required to be worn at the event.**
+### No Rollback
 
-Masks must be worn over the nose and mouth and must be made of a tight-knit, non-permeable material. KN95 or N95 masks are recommended. Cloth masks are acceptable. Bandanas, scarves, and gators are not permitted to be used as masks.
-
-Masks do not need to be worn when in outdoor spaces and while actively eating food and beverage indoors when socially distanced from others (locations for eating and drinking within the conference space will be clearly marked). Speakers are not required to wear masks while presenting.
-
-Note: Face shields are NOT a good substitute for face masks because they do not offer the same protection. Read more at [Canadian Centre for Occupational Health and Safety (CCOHS)](https://www.ccohs.ca/products/publications/covid19-face-shields/)  
-
-### Vaccine or Negative COVID-19 Test Requirement
-
-All attendees **must show proof of COVID-19 vaccination OR a negative COVID-19 test** upon first entry to the event. Attendee badges will be used as proof of vaccination or negative test validation throughout the event, each participant will need to pick up their own badge.
-
-**Vaccine Requirement**
-
-If you are showing proof of vaccination to attend in person, you will need to show that you are ‘fully vaccinated’ against the COVID-19 virus. We require that you:
-
-*   have completed a full round of vaccine (1 dose of a single-dose vaccine or 2 doses of a two-dose vaccine)
-*   that your most recent dose was at least fourteen days before the conference start
-*   that your most recent dose or booster was no more than twelve months before the conference start
-
-The following are acceptable forms of proof of full vaccination:
-
-*   Government-issued or government-compliant digital vaccination verification app (such as Clear or VaxYes)
-*   Physical (or digital photocopy of) COVID-19 vaccination card, record, or certificate issued by a government agency, public health agency, or other authorized vaccine provider (a photo will also suffice).
-
-The proof of vaccination record must show the name of the vaccinated individual along with one other personal identifier (such as date of birth or passport number), name of the manufacturer for vaccine received, and date(s) of vaccination. It must also include the name of the official source issuing the record (e.g., public health agency, government agency, or other authorized vaccine provider).
-
-**Negative COVID-19 Test Requirement**
-
-In lieu of proof of vaccination, participants may instead show proof of a negative COVID-19 test administered by a verified provider to enter the event.
-
-*   Provide a negative COVID-19 test upon entry to the event for the first time.
-*   The test must be a PCR, NAAT, or Antigen test taken within 24 hours of picking up your badge on-site.
-*   The test may NOT be an unproctored at-home test. Tests must be administered by a verified provider, either locally in Vancouver or virtually before you travel from your home city (if time permits).
-*   The test results must include your name and the date and time of the test.
-
-### Other Testing Encouraged
-
-We strongly encourage attendees to test themselves for COVID before and during the conference. Rapid tests are available from several places:
-
-*   Free at pharmacies in British Columbia [(BC Centre of Disease Control (BCCDC) - Where to get a Covid-19 Test in BC)](http://www.bccdc.ca/health-info/diseases-conditions/covid-19/testing/where-to-get-a-covid-19-test-in-bc)
-*   Free for Washington State residents at [(Say YES Covid Home Test)](https://www.sayyescovidhometest.org/)
-*   For sale at pharmacies in Oregon [(Oregon Government - COVID-19 Testing and Vaccine Locator)](https://govstatus.egov.com/or-oha-covid-19-testing)
-
-Additionally, we intend to provide free tests to attendees who need them, depending on availability. **DO NOT PERFORM YOUR TEST AT THE VENUE -** if you make use of rapid tests, please perform your test at your home, hotel room, or other private space, and do not bring your completed test to the venue.  
-
-### Onsite Health + Safety Measures
-
-Please expect the following measures to be in place at the event.
-
-*   Mask mandate
-*   Proof of vaccination or negative COVID-19 test
-*   Event signage indicating required health and safety protocols
-*   Additional space between speakers and attendees in conference rooms to allow speakers to give talks without wearing masks, while keeping attendees safe
-*   Wider aisles in the exhibit hall with booths spaced apart. Event participants are asked to not crowd around booths and to limit the number of attendees at a booth at any given time.
-*   Wider aisles and increased event traffic flow signage to allow for physical distancing
-*   Rigorous onsite cleaning and sanitizing of all touch points including cleaning of each badge check-in station between participants
-*   Pre-packaged food and beverage wherever possible, and proper health and safety protocols for those handling food & beverage
-*   Sanitized microphones between each speaker’s use
-*   Plentiful sanitation stations onsite
-*   Personal hand sanitizer bottles and wipes available for participants
-
-At a minimum, we will be following all mandated venue, municipality, and province guidelines. **This list, and all protocols, are subject to change as the fluid COVID-19 situation changes.**
-
-### Commitment to Compliance
-
-PyCascades takes this policy very seriously and will therefore enforce a 3-strike rule. Anyone who violates these guidelines on three separate accounts, such as continuing not to wear a proper mask or disregarding social distancing, is subject to removal from the conference.
-
-### Thanks
-
-This COVID policy is largely based on the policy from KubeCon + CloudNativeCon - thank you to the CNCF for allowing us to modify & re-use your content.  
-  
-Thank you to Dr. Shweta Bansal, Associate Professor of Biology at Georgetown University, for providing time and expertise to help us craft a safe and practicable policy.  
-  
-Additionally, thank you to Peter Burkholder and the rest of the DevOpsDays organizers for sharing your experiences and lessons from implementing health and safety policies at your own conferences.
-
-### [**Read our full COVID Health & Safety FAQ here.**](/about/covid-faq/)
+We promise not to downgrade our Health & Safety Policy between now and the event to allow community members to make decisions about attending with confidence that this policy won’t be weakened between when they buy a ticket or submit a talk and when the conference takes place. If there is a development that recommends an additional precaution, then we will add it, but we will not be subtracting anything or softening our mask policy.
 ---
 sort_index: 6
 ---
-related_pages: /about/covid-faq/
----
-_hidden: yes
+_hidden: no
