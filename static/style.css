@@ -126,3 +126,12 @@
 img:hover {
     fill: red;
 }
+
+.cfp {
+    font-size: 36px;
+}
+
+.cfp-link {
+    background: white;
+}
+
