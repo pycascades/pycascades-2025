@@ -135,3 +135,14 @@ img:hover {
     background: white;
 }
 
+.cfp-extension {
+    background: #7100FF;
+    color: white;
+    font-size: 18px;
+}
+
+.cfp-extension a {
+    color: white;
+    text-decoration: underline; 
+}
+
