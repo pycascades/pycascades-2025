@@ -6,4 +6,54 @@ show_in_menu: yes
 ---
 sort_index: 1
 ---
-_hidden: yes
+_hidden:
+
+no
+
+### About The Conference
+PyCascades was started in 2018 as a regional PyCon for the Cascades Region, celebrating the west coast Python developer and user community. Our organizing team includes members of the Vancouver, Seattle, and Portland Python user groups.
+### Getting in touch with us
+You can reach us via email at sponsorships@pycascades.com
+### Sponsorship Tiers
+See the table on the following page for core tiers and benefits, then look below for add-ons to help set your organization apart.
+
+
+
+---
+_discoverable: yes
+---
+body: PyCascades is a Python conference for the Pacific Northwest. Our mission is to improve the Python community and Python tools that you use daily. This work can’t be done without the generous financial support that organizations like yours provide us.
+---
+content:
+
+#### html ####
+hidden: False
+----
+content: 
+#### markdown ####
+title: 
+----
+hidden: False
+----
+body:
+
+### About The Conference
+PyCascades was started in 2018 as a regional PyCon for the Cascades Region, celebrating the west coast Python developer and user community. Our organizing team includes members of the Vancouver, Seattle, and Portland Python user groups.
+
+### Getting in touch with us
+You can reach us via email at sponsorships@pycascades.com
+
+### Sponsorship Tiers
+Check out our prospectus for core tiers and benefits, then look below for add-ons to help set your organization apart.
+
+![2025 Prospectus Table](/assets/prospectus_table.png)
+#### markdown ####
+title: How we use funds
+----
+hidden: False
+----
+body:
+
+All sponsorship funds and the revenue from all tickets are used in the direct operations of the PyCascades conference. We use this money to rent our venue(s), pay our vendors, buy supplies, provide our online platform, and fund all other conference costs. Additionally, sponsorship and corporate-level ticket sales allow us offer make individual- and student-level tickets at affordable prices, as well as offering grants to attendees who need them. Any funds above our costs are reserved for future years' conferences.
+
+PyCascades is a direct project of the Python Software Foundation (“the PSF”). In addition to tax deductibility as a marketing expense for our sponsors, any applicable benefits of the PSF’s 501(c)3 designation from the IRS also may apply. Determination letter from the IRS designating the PSF as a charitable organization available from the PSF website.

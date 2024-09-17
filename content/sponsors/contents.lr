@@ -4,4 +4,6 @@ title: Sponsors
 ---
 show_in_menu: yes
 ---
-_hidden: yes
+_hidden: no
+---
+_discoverable: yes
