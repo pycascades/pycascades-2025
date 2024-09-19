@@ -26,27 +26,452 @@ body: PyCascades is a Python conference for the Pacific Northwest. Our mission i
 ---
 content:
 
+#### markdown ####
+title: About The Conference
+----
+hidden: False
+----
+body: PyCascades was started in 2018 as a regional PyCon for the Cascades Region, celebrating the west coast Python developer and user community. Our organizing team includes members of the Vancouver, Seattle, and Portland Python user groups.
+#### markdown ####
+title: Getting in touch with us
+----
+hidden: False
+----
+body: You can reach us via email at sponsorships@pycascades.com
 #### html ####
 hidden: False
 ----
-content: 
-#### markdown ####
-title: 
-----
-hidden: False
-----
-body:
+content:
 
-### About The Conference
-PyCascades was started in 2018 as a regional PyCon for the Cascades Region, celebrating the west coast Python developer and user community. Our organizing team includes members of the Vancouver, Seattle, and Portland Python user groups.
+<h2>Sponsorship Tiers</h2>
 
-### Getting in touch with us
-You can reach us via email at sponsorships@pycascades.com
 
-### Sponsorship Tiers
-Check out our prospectus for core tiers and benefits, then look below for add-ons to help set your organization apart.
+<table style="border:none;border-collapse:collapse;">
+    <colgroup>
+        <col width="368">
+        <col width="77">
+        <col width="77">
+        <col width="77">
+        <col width="77">
+        <col width="77">
+    </colgroup>
+    <tbody>
+    <tr style="height:31.5pt">
+        <td rowspan="2"
+            style="border-left:solid #666666 0.75pt;border-right:solid #f279cd 0.75pt;border-bottom:solid #666666 0.75pt;border-top:solid #666666 0.75pt;vertical-align:middle;background-color:#efefef;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <br></td>
+        <td rowspan="2"
+            style="border-left:solid #f279cd 0.75pt;border-right:solid #3c78d8 0.75pt;border-bottom:solid #666666 0.75pt;border-top:solid #666666 0.75pt;vertical-align:bottom;background-color:#f279cd;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;text-align: center;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:10pt;font-family:Arial,sans-serif;color:#ffffff;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">DIAMOND</span>
+            </p>
+            <p dir="ltr" style="line-height:1.38;text-align: center;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:10pt;font-family:Arial,sans-serif;color:#ffffff;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">$15,000</span>
+            </p></td>
+        <td rowspan="2"
+            style="border-left:solid #3c78d8 0.75pt;border-right:solid #e26b0a 0.75pt;border-bottom:solid #666666 0.75pt;border-top:solid #666666 0.75pt;vertical-align:bottom;background-color:#4a86e8;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;text-align: center;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:10pt;font-family:Arial,sans-serif;color:#ffffff;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">PLATINUM</span>
+            </p>
+            <p dir="ltr" style="line-height:1.38;text-align: center;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:10pt;font-family:Arial,sans-serif;color:#ffffff;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">$10,000</span>
+            </p></td>
+        <td rowspan="2"
+            style="border-left:solid #e26b0a 0.75pt;border-right:solid #76933c 0.75pt;border-bottom:solid #666666 0.75pt;border-top:solid #666666 0.75pt;vertical-align:bottom;background-color:#e26b0a;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;text-align: center;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:10pt;font-family:Arial,sans-serif;color:#ffffff;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">GOLD</span>
+            </p>
+            <p dir="ltr" style="line-height:1.38;text-align: center;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:10pt;font-family:Arial,sans-serif;color:#ffffff;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">$6,000</span>
+            </p></td>
+        <td rowspan="2"
+            style="border-left:solid #76933c 0.75pt;border-right:solid #bf9000 0.75pt;border-bottom:solid #666666 0.75pt;border-top:solid #666666 0.75pt;vertical-align:bottom;background-color:#76933c;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;text-align: center;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:10pt;font-family:Arial,sans-serif;color:#ffffff;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">SILVER</span>
+            </p>
+            <p dir="ltr" style="line-height:1.38;text-align: center;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:10pt;font-family:Arial,sans-serif;color:#ffffff;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">$3,000</span>
+            </p></td>
+        <td rowspan="2"
+            style="border-left:solid #bf9000 0.75pt;border-right:solid #666666 0.75pt;border-bottom:solid #666666 0.75pt;border-top:solid #666666 0.75pt;vertical-align:bottom;background-color:#bf9000;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;text-align: center;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:10pt;font-family:Arial,sans-serif;color:#ffffff;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">BRONZE</span>
+            </p>
+            <p dir="ltr" style="line-height:1.38;text-align: center;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:10pt;font-family:Arial,sans-serif;color:#ffffff;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">$1,000</span>
+            </p></td>
+    </tr>
+    <tr style="height:0pt"></tr>
+    <tr style="height:21pt">
+        <td style="border-left:solid #666666 0.75pt;border-right:solid #f279cd 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:13pt;font-family:Arial,sans-serif;color:#767676;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">AVAILABILITY</span>
+            </p></td>
+        <td style="border-left:solid #f279cd 0.75pt;border-right:solid #3c78d8 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;text-align: center;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:11pt;font-family:Arial,sans-serif;color:#767676;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">2</span>
+            </p></td>
+        <td style="border-left:solid #3c78d8 0.75pt;border-right:solid #e26b0a 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;text-align: center;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:11pt;font-family:Arial,sans-serif;color:#767676;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">4</span>
+            </p></td>
+        <td style="border-left:solid #e26b0a 0.75pt;border-right:solid #76933c 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;text-align: center;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:11pt;font-family:Arial,sans-serif;color:#767676;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">6</span>
+            </p></td>
+        <td style="border-left:solid #76933c 0.75pt;border-right:solid #bf9000 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;text-align: center;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:11pt;font-family:Arial,sans-serif;color:#767676;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">10</span>
+            </p></td>
+        <td style="border-left:solid #bf9000 0.75pt;border-right:solid #666666 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;text-align: center;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:11pt;font-family:Arial,sans-serif;color:#767676;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Unlimited</span>
+            </p></td>
+    </tr>
+    <tr style="height:15.75pt">
+        <td style="border-left:solid #666666 0.75pt;border-right:solid #f279cd 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:bottom;background-color:#efefef;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:10pt;font-family:Arial,sans-serif;color:#6fa8dc;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">TICKETS</span>
+            </p></td>
+        <td style="border-left:solid #f279cd 0.75pt;border-right:solid #3c78d8 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:bottom;background-color:#efefef;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <br></td>
+        <td style="border-left:solid #3c78d8 0.75pt;border-right:solid #e26b0a 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:bottom;background-color:#efefef;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <br></td>
+        <td style="border-left:solid #e26b0a 0.75pt;border-right:solid #76933c 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:bottom;background-color:#efefef;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <br></td>
+        <td style="border-left:solid #76933c 0.75pt;border-right:solid #bf9000 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:bottom;background-color:#efefef;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <br></td>
+        <td style="border-left:solid #bf9000 0.75pt;border-right:solid #666666 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:bottom;background-color:#efefef;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <br></td>
+    </tr>
+    <tr style="height:30.75pt">
+        <td style="border-left:solid #666666 0.75pt;border-right:solid #f279cd 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:bottom;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:10pt;font-family:Arial,sans-serif;color:#666666;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Complementary conference passes (in-person): </span><span
+                    style="font-size:10pt;font-family:Arial,sans-serif;color:#666666;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">You'll receive tickets for your organization.</span>
+            </p></td>
+        <td style="border-left:solid #f279cd 0.75pt;border-right:solid #3c78d8 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;text-align: center;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:11pt;font-family:Arial,sans-serif;color:#767676;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">6</span>
+            </p></td>
+        <td style="border-left:solid #3c78d8 0.75pt;border-right:solid #e26b0a 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;text-align: center;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:11pt;font-family:Arial,sans-serif;color:#767676;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">4</span>
+            </p></td>
+        <td style="border-left:solid #e26b0a 0.75pt;border-right:solid #76933c 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;text-align: center;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:11pt;font-family:Arial,sans-serif;color:#767676;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">2</span>
+            </p></td>
+        <td style="border-left:solid #76933c 0.75pt;border-right:solid #bf9000 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;text-align: center;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:11pt;font-family:Arial,sans-serif;color:#767676;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">2</span>
+            </p></td>
+        <td style="border-left:solid #bf9000 0.75pt;border-right:solid #666666 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;text-align: center;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:11pt;font-family:Arial,sans-serif;color:#767676;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">1</span>
+            </p></td>
+    </tr>
+    <tr style="height:30.75pt">
+        <td style="border-left:solid #666666 0.75pt;border-right:solid #f279cd 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:bottom;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:10pt;font-family:Arial,sans-serif;color:#666666;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Complementary conference passes (remote): </span><span
+                    style="font-size:10pt;font-family:Arial,sans-serif;color:#666666;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">You'll receive tickets for your organization.</span>
+            </p></td>
+        <td style="border-left:solid #f279cd 0.75pt;border-right:solid #3c78d8 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;text-align: center;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:11pt;font-family:Arial,sans-serif;color:#767676;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">10</span>
+            </p></td>
+        <td style="border-left:solid #3c78d8 0.75pt;border-right:solid #e26b0a 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;text-align: center;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:11pt;font-family:Arial,sans-serif;color:#767676;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">8</span>
+            </p></td>
+        <td style="border-left:solid #e26b0a 0.75pt;border-right:solid #76933c 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;text-align: center;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:11pt;font-family:Arial,sans-serif;color:#767676;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">6</span>
+            </p></td>
+        <td style="border-left:solid #76933c 0.75pt;border-right:solid #bf9000 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;text-align: center;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:11pt;font-family:Arial,sans-serif;color:#767676;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">4</span>
+            </p></td>
+        <td style="border-left:solid #bf9000 0.75pt;border-right:solid #666666 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;text-align: center;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:11pt;font-family:Arial,sans-serif;color:#767676;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">2</span>
+            </p></td>
+    </tr>
+    <tr style="height:15.75pt">
+        <td style="border-left:solid #666666 0.75pt;border-right:solid #f279cd 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;background-color:#efefef;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:10pt;font-family:Arial,sans-serif;color:#6fa8dc;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">BENEFITS</span>
+            </p></td>
+        <td style="border-left:solid #f279cd 0.75pt;border-right:solid #3c78d8 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:bottom;background-color:#efefef;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <br></td>
+        <td style="border-left:solid #3c78d8 0.75pt;border-right:solid #e26b0a 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:bottom;background-color:#efefef;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <br></td>
+        <td style="border-left:solid #e26b0a 0.75pt;border-right:solid #76933c 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:bottom;background-color:#efefef;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <br></td>
+        <td style="border-left:solid #76933c 0.75pt;border-right:solid #bf9000 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:bottom;background-color:#efefef;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <br></td>
+        <td style="border-left:solid #bf9000 0.75pt;border-right:solid #666666 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:bottom;background-color:#efefef;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <br></td>
+    </tr>
+    <tr style="height:44.25pt">
+        <td style="border-left:solid #666666 0.75pt;border-right:solid #f279cd 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:bottom;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:10pt;font-family:Arial,sans-serif;color:#666666;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Logo on website and press releases:</span><span
+                    style="font-size:10pt;font-family:Arial,sans-serif;color:#666666;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;"> Your logo will be featured on the website and in newsletter. (</span><span
+                    style="font-size:10pt;font-family:Arial,sans-serif;color:#666666;background-color:transparent;font-weight:400;font-style:italic;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Logo image sizes are adjusted by sponsorship tier</span><span
+                    style="font-size:10pt;font-family:Arial,sans-serif;color:#666666;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">)</span>
+            </p></td>
+        <td style="border-left:solid #f279cd 0.75pt;border-right:solid #3c78d8 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;text-align: center;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:18pt;font-family:Arial,sans-serif;color:#767676;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">✓</span>
+            </p></td>
+        <td style="border-left:solid #3c78d8 0.75pt;border-right:solid #e26b0a 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;text-align: center;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:18pt;font-family:Arial,sans-serif;color:#767676;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">✓</span>
+            </p></td>
+        <td style="border-left:solid #e26b0a 0.75pt;border-right:solid #76933c 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;text-align: center;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:18pt;font-family:Arial,sans-serif;color:#767676;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">✓</span>
+            </p></td>
+        <td style="border-left:solid #76933c 0.75pt;border-right:solid #bf9000 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;text-align: center;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:18pt;font-family:Arial,sans-serif;color:#767676;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">✓</span>
+            </p></td>
+        <td style="border-left:solid #bf9000 0.75pt;border-right:solid #666666 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;text-align: center;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:18pt;font-family:Arial,sans-serif;color:#767676;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">✓</span>
+            </p></td>
+    </tr>
+    <tr style="height:30.75pt">
+        <td style="border-left:solid #666666 0.75pt;border-right:solid #f279cd 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:bottom;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:10pt;font-family:Arial,sans-serif;color:#666666;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Virtual booth space: </span><span
+                    style="font-size:10pt;font-family:Arial,sans-serif;color:#666666;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">We will provide a virtual sponsorship booth that can provide a tier-specific capacity of participants.</span>
+            </p></td>
+        <td style="border-left:solid #f279cd 0.75pt;border-right:solid #3c78d8 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;text-align: center;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:18pt;font-family:Arial,sans-serif;color:#767676;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">✓</span>
+            </p></td>
+        <td style="border-left:solid #3c78d8 0.75pt;border-right:solid #e26b0a 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;text-align: center;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:18pt;font-family:Arial,sans-serif;color:#767676;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">✓</span>
+            </p></td>
+        <td style="border-left:solid #e26b0a 0.75pt;border-right:solid #76933c 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;text-align: center;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:18pt;font-family:Arial,sans-serif;color:#767676;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">✓</span>
+            </p></td>
+        <td style="border-left:solid #76933c 0.75pt;border-right:solid #bf9000 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;text-align: center;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:18pt;font-family:Arial,sans-serif;color:#767676;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">✓</span>
+            </p></td>
+        <td style="border-left:solid #bf9000 0.75pt;border-right:solid #666666 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;text-align: center;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:18pt;font-family:Arial,sans-serif;color:#767676;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">✓</span>
+            </p></td>
+    </tr>
+    <tr style="height:30.75pt">
+        <td style="border-left:solid #666666 0.75pt;border-right:solid #f279cd 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:bottom;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:10pt;font-family:Arial,sans-serif;color:#666666;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">In-person booth space: </span><span
+                    style="font-size:10pt;font-family:Arial,sans-serif;color:#666666;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">We will provide an in-person sponsorship booth with tier-specific table size and location.</span>
+            </p></td>
+        <td style="border-left:solid #f279cd 0.75pt;border-right:solid #3c78d8 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;text-align: center;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:18pt;font-family:Arial,sans-serif;color:#767676;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">✓</span>
+            </p></td>
+        <td style="border-left:solid #3c78d8 0.75pt;border-right:solid #e26b0a 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;text-align: center;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:18pt;font-family:Arial,sans-serif;color:#767676;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">✓</span>
+            </p></td>
+        <td style="border-left:solid #e26b0a 0.75pt;border-right:solid #bf9000 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;text-align: center;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:18pt;font-family:Arial,sans-serif;color:#767676;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">✓</span>
+            </p></td>
+        <td style="border-left:solid #bf9000 0.75pt;border-right:solid #bf9000 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;text-align: center;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:18pt;font-family:Arial,sans-serif;color:#767676;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">✓</span>
+            </p></td>
+        <td style="border-left:solid #bf9000 0.75pt;border-right:solid #666666 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <br></td>
+    </tr>
+    <tr style="height:30.75pt">
+        <td style="border-left:solid #666666 0.75pt;border-right:solid #f279cd 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:bottom;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:10pt;font-family:Arial,sans-serif;color:#666666;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Mentions in social media before, during, and after the event:</span><span
+                    style="font-size:10pt;font-family:Arial,sans-serif;color:#666666;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;"> Your company will be featured in all social media campaigns.</span>
+            </p></td>
+        <td style="border-left:solid #f279cd 0.75pt;border-right:solid #3c78d8 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;text-align: center;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:18pt;font-family:Arial,sans-serif;color:#767676;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">✓</span>
+            </p></td>
+        <td style="border-left:solid #3c78d8 0.75pt;border-right:solid #e26b0a 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;text-align: center;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:18pt;font-family:Arial,sans-serif;color:#767676;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">✓</span>
+            </p></td>
+        <td style="border-left:solid #e26b0a 0.75pt;border-right:solid #76933c 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;text-align: center;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:18pt;font-family:Arial,sans-serif;color:#767676;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">✓</span>
+            </p></td>
+        <td style="border-left:solid #76933c 0.75pt;border-right:solid #bf9000 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;text-align: center;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:18pt;font-family:Arial,sans-serif;color:#767676;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">✓</span>
+            </p></td>
+        <td style="border-left:solid #bf9000 0.75pt;border-right:solid #666666 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <br></td>
+    </tr>
+    <tr style="height:30.75pt">
+        <td style="border-left:solid #666666 0.75pt;border-right:solid #f279cd 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:bottom;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:10pt;font-family:Arial,sans-serif;color:#666666;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Logo with message on website:</span><span
+                    style="font-size:10pt;font-family:Arial,sans-serif;color:#666666;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;"> You will receive a short description and featured company logo on the website.</span>
+            </p></td>
+        <td style="border-left:solid #f279cd 0.75pt;border-right:solid #3c78d8 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;text-align: center;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:18pt;font-family:Arial,sans-serif;color:#767676;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">✓</span>
+            </p></td>
+        <td style="border-left:solid #3c78d8 0.75pt;border-right:solid #e26b0a 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;text-align: center;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:18pt;font-family:Arial,sans-serif;color:#767676;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">✓</span>
+            </p></td>
+        <td style="border-left:solid #e26b0a 0.75pt;border-right:solid #76933c 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;text-align: center;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:18pt;font-family:Arial,sans-serif;color:#767676;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">✓</span>
+            </p></td>
+        <td style="border-left:solid #76933c 0.75pt;border-right:solid #bf9000 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <br></td>
+        <td style="border-left:solid #bf9000 0.75pt;border-right:solid #666666 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <br></td>
+    </tr>
+    <tr style="height:30.75pt">
+        <td style="border-left:solid #666666 0.75pt;border-right:solid #f279cd 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:bottom;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:10pt;font-family:Arial,sans-serif;color:#666666;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Logo banner on stage: </span><span
+                    style="font-size:10pt;font-family:Arial,sans-serif;color:#666666;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Your logo will be shown on our speaker presentation stage during the event.</span>
+            </p></td>
+        <td style="border-left:solid #f279cd 0.75pt;border-right:solid #3c78d8 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;text-align: center;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:18pt;font-family:Arial,sans-serif;color:#767676;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">✓</span>
+            </p></td>
+        <td style="border-left:solid #3c78d8 0.75pt;border-right:solid #e26b0a 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;text-align: center;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:18pt;font-family:Arial,sans-serif;color:#767676;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">✓</span>
+            </p></td>
+        <td style="border-left:solid #e26b0a 0.75pt;border-right:solid #76933c 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;text-align: center;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:18pt;font-family:Arial,sans-serif;color:#767676;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">✓</span>
+            </p></td>
+        <td style="border-left:solid #76933c 0.75pt;border-right:solid #bf9000 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <br></td>
+        <td style="border-left:solid #bf9000 0.75pt;border-right:solid #666666 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <br></td>
+    </tr>
+    <tr style="height:30.75pt">
+        <td style="border-left:solid #666666 0.75pt;border-right:solid #f279cd 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:bottom;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:10pt;font-family:Arial,sans-serif;color:#666666;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Logo on intermission video:</span><span
+                    style="font-size:10pt;font-family:Arial,sans-serif;color:#666666;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;"> Your logo will be shown on all intermission videos.</span>
+            </p></td>
+        <td style="border-left:solid #f279cd 0.75pt;border-right:solid #3c78d8 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;text-align: center;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:18pt;font-family:Arial,sans-serif;color:#767676;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">✓</span>
+            </p></td>
+        <td style="border-left:solid #3c78d8 0.75pt;border-right:solid #e26b0a 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;text-align: center;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:18pt;font-family:Arial,sans-serif;color:#767676;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">✓</span>
+            </p></td>
+        <td style="border-left:solid #e26b0a 0.75pt;border-right:solid #76933c 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;text-align: center;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:18pt;font-family:Arial,sans-serif;color:#767676;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">✓</span>
+            </p></td>
+        <td style="border-left:solid #76933c 0.75pt;border-right:solid #bf9000 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <br></td>
+        <td style="border-left:solid #bf9000 0.75pt;border-right:solid #666666 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:bottom;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <br></td>
+    </tr>
+    <tr style="height:44.25pt">
+        <td style="border-left:solid #666666 0.75pt;border-right:solid #f279cd 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:bottom;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:10pt;font-family:Arial,sans-serif;color:#666666;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Logo with brief message in opening and closing emails</span><span
+                    style="font-size:10pt;font-family:Arial,sans-serif;color:#666666;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">: Your logo and brief message will be included in welcome and thank-you emails.*</span>
+            </p></td>
+        <td style="border-left:solid #f279cd 0.75pt;border-right:solid #3c78d8 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;text-align: center;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:18pt;font-family:Arial,sans-serif;color:#767676;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">✓</span>
+            </p></td>
+        <td style="border-left:solid #3c78d8 0.75pt;border-right:solid #e26b0a 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;text-align: center;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:18pt;font-family:Arial,sans-serif;color:#767676;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">✓</span>
+            </p></td>
+        <td style="border-left:solid #e26b0a 0.75pt;border-right:solid #76933c 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <br></td>
+        <td style="border-left:solid #76933c 0.75pt;border-right:solid #bf9000 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <br></td>
+        <td style="border-left:solid #bf9000 0.75pt;border-right:solid #666666 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:bottom;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <br></td>
+    </tr>
+    <tr style="height:39pt">
+        <td style="border-left:solid #666666 0.75pt;border-right:solid #f279cd 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:bottom;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:10pt;font-family:Arial,sans-serif;color:#666666;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Acknowledgement in opening and closing remarks</span><span
+                    style="font-size:10pt;font-family:Arial,sans-serif;color:#666666;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">: Your organization will be included in all verbal welcome and closing announcements.</span>
+            </p></td>
+        <td style="border-left:solid #f279cd 0.75pt;border-right:solid #3c78d8 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;text-align: center;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:18pt;font-family:Arial,sans-serif;color:#767676;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">✓</span>
+            </p></td>
+        <td style="border-left:solid #3c78d8 0.75pt;border-right:solid #e26b0a 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;text-align: center;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:18pt;font-family:Arial,sans-serif;color:#767676;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">✓</span>
+            </p></td>
+        <td style="border-left:solid #e26b0a 0.75pt;border-right:solid #76933c 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <br></td>
+        <td style="border-left:solid #76933c 0.75pt;border-right:solid #bf9000 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <br></td>
+        <td style="border-left:solid #bf9000 0.75pt;border-right:solid #666666 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:bottom;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <br></td>
+    </tr>
+    <tr style="height:43.5pt">
+        <td style="border-left:solid #666666 0.75pt;border-right:solid #f279cd 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:bottom;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:10pt;font-family:Arial,sans-serif;color:#666666;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Logo on videos and screen recordings during sessions: </span><span
+                    style="font-size:10pt;font-family:Arial,sans-serif;color:#666666;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Your logo will be shown in a banner on all live talks and screen recordings during sessions and on the closing videos.</span>
+            </p></td>
+        <td style="border-left:solid #f279cd 0.75pt;border-right:solid #3c78d8 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;text-align: center;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:18pt;font-family:Arial,sans-serif;color:#767676;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">✓</span>
+            </p></td>
+        <td style="border-left:solid #3c78d8 0.75pt;border-right:solid #e26b0a 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <br></td>
+        <td style="border-left:solid #e26b0a 0.75pt;border-right:solid #76933c 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <br></td>
+        <td style="border-left:solid #76933c 0.75pt;border-right:solid #bf9000 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <br></td>
+        <td style="border-left:solid #bf9000 0.75pt;border-right:solid #666666 0.75pt;border-bottom:solid #cccccc 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:bottom;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <br></td>
+    </tr>
+    <tr style="height:30.75pt">
+        <td style="border-left:solid #666666 0.75pt;border-right:solid #f279cd 0.75pt;border-bottom:solid #666666 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:top;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:10pt;font-family:Arial,sans-serif;color:#666666;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Five minute talk slot: </span><span
+                    style="font-size:10pt;font-family:Arial,sans-serif;color:#666666;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Your organization gets a five-minute slot during closing remarks.*</span>
+            </p></td>
+        <td style="border-left:solid #f279cd 0.75pt;border-right:solid #3c78d8 0.75pt;border-bottom:solid #666666 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <p dir="ltr" style="line-height:1.38;text-align: center;margin-top:0pt;margin-bottom:0pt;"><span
+                    style="font-size:18pt;font-family:Arial,sans-serif;color:#767676;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">✓</span>
+            </p></td>
+        <td style="border-left:solid #3c78d8 0.75pt;border-right:solid #e26b0a 0.75pt;border-bottom:solid #666666 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <br></td>
+        <td style="border-left:solid #e26b0a 0.75pt;border-right:solid #76933c 0.75pt;border-bottom:solid #666666 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <br></td>
+        <td style="border-left:solid #76933c 0.75pt;border-right:solid #bf9000 0.75pt;border-bottom:solid #666666 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <br></td>
+        <td style="border-left:solid #bf9000 0.75pt;border-right:solid #666666 0.75pt;border-bottom:solid #666666 0.75pt;border-top:solid #cccccc 0.75pt;vertical-align:middle;padding:1.44pt 1.44pt 1.44pt 1.44pt;overflow:hidden;overflow-wrap:break-word;">
+            <br></td>
+    </tr>
+    </tbody>
+</table>
 
-![2025 Prospectus Table](/assets/prospectus_table.png)
 #### markdown ####
 title: How we use funds
 ----
