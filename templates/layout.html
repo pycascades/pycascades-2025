@@ -69,7 +69,7 @@
 
         {% if site.query('/sponsors').filter(F.show_in_menu == True).count() > 0 %}
         <div class="navbar-item has-dropdown is-hoverable">
-          <a href="{{ '/sponsors'|url }}" class="navbar-link is-arrowless">Sponsors</a>
+          <a href="{{ '/sponsors/become-a-sponsor'|url }}" class="navbar-link is-arrowless">Sponsors</a>
 
           <div class="navbar-dropdown">
             {% for page in site.query('/sponsors').filter(F.show_in_menu == True).order_by('sort_index', 'name') %}
