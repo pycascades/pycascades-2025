@@ -127,21 +127,22 @@ img:hover {
     fill: red;
 }
 
-.cfp {
+.cta {
     font-size: 36px;
+    padding-top: -10px;
 }
 
-.cfp-link {
+.cta-link {
     background: white;
 }
 
-.cfp-extension {
+.cta-extension {
     background: #7100FF;
     color: white;
     font-size: 18px;
 }
 
-.cfp-extension a {
+.cta-extension a {
     color: white;
     text-decoration: underline; 
 }
