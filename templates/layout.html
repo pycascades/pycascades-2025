@@ -46,10 +46,12 @@
         </div>
 
         <div class="navbar-item has-dropdown is-hoverable">
-          <a href="{{ '/attending/venue'|url }}" class="navbar-link is-arrowless">Attending</a>
+{#          <a href="{{ '/attend/venue'|url }}" class="navbar-link is-arrowless">Attend</a>#}
+          <a href="https://pretix.eu/pycascades/portland-2025/" class="navbar-link is-arrowless">Attend</a>
 
           <div class="navbar-dropdown">
-            {% for page in site.query('/attending').filter(F.show_in_menu == True).order_by('sort_index', 'name') %}
+            <a class="navbar-item" href="https://pretix.eu/pycascades/portland-2025/">Get tickets</a>
+            {% for page in site.query('/attend').filter(F.show_in_menu == True).order_by('sort_index', 'name') %}
             <a class="navbar-item" href="{{ page|url }}">{{ page.title }}</a>
             {% endfor %}
           </div>
@@ -57,7 +59,7 @@
 
         {% if site.query('/program').filter(F.show_in_menu == True).count() > 0 %}
         <div class="navbar-item has-dropdown is-hoverable">
-          <a href="{{ '/program/cfp'|url }}" class="navbar-link is-arrowless">Program</a>
+          <a href="{{ '/program/schedule'|url }}" class="navbar-link is-arrowless">Program</a>
 
           <div class="navbar-dropdown">
             {% for page in site.query('/program').filter(F.show_in_menu == True).order_by('sort_index', 'name') %}

@@ -18,7 +18,7 @@ add content to the Lektor site:
 - Via the localhost web server (accessed by running `lektor serve` and navigating to
     `http://127.0.0.1:5000/`)
 - Adding a folder within the `content` folder, and putting a `contents.lr` file in it
-    -  A `contents.lr` file is is a key-value file, where each key and value is separated by `---`,
+    -  A `contents.lr` file is a key-value file, where each key and value is separated by `---`,
     which allows values to be multiline.
 
 Each page on the static site has an associated model, the default model type is the `page` model,
@@ -110,9 +110,9 @@ GitHub automatically.
 - Add in-page links in page overviews
     - Health and Safety Policy
     - Health and Safety FAQ
-- Add YouTube video embed to attending/attending-remotely page
+- Add YouTube video embed to attend/attending-remotely page
 - Fill out the content for the following pages:
-    - Attending
+    - Attend
         - Attending In Person (partially completed)
         - Tour Portland
     - Program
