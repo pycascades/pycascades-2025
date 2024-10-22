@@ -110,9 +110,9 @@ GitHub automatically.
 - Add in-page links in page overviews
     - Health and Safety Policy
     - Health and Safety FAQ
-- Add YouTube video embed to attending/attending-remotely page
+- Add YouTube video embed to attend/attending-remotely page
 - Fill out the content for the following pages:
-    - Attending
+    - Attend
         - Attending In Person (partially completed)
         - Tour Portland
     - Program
