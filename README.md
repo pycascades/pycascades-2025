@@ -18,7 +18,7 @@ add content to the Lektor site:
 - Via the localhost web server (accessed by running `lektor serve` and navigating to
     `http://127.0.0.1:5000/`)
 - Adding a folder within the `content` folder, and putting a `contents.lr` file in it
-    -  A `contents.lr` file is is a key-value file, where each key and value is separated by `---`,
+    -  A `contents.lr` file is a key-value file, where each key and value is separated by `---`,
     which allows values to be multiline.
 
 Each page on the static site has an associated model, the default model type is the `page` model,
