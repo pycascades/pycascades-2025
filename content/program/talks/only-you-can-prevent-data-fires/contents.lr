@@ -1,0 +1,11 @@
+
+title: Only You Can Prevent Data Fires - Getting Proactive About Data Quality
+---
+description:
+
+Many Pythonistas find themselves engaged in the work of tending and defending data, ensuring high quality data is available for products and analytics users. Much like defending a home against wildfires, there are proactive steps you can take to shield your data from disaster. In this talk you’ll see a comprehensive approach to data quality, implementing checks at various parts of the data lifecycle. You'll also learn a bit about wildfire preparedness along the way. If you’ve experienced the chaotic nature of real-world data and are looking for a way to quench the flames this session is for you.
+---
+speaker_slugs:
+
+sev-leonard
+
