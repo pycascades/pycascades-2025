@@ -73,6 +73,9 @@ def render_speaker(speaker, talk):
     website_url = speaker["Website URL"] or ""
     mastodon_url = speaker["Mastodon URL"] or ""
     github_handle = speaker["Github username"] or ""
+    if github_handle:
+        # Several folks gave us full URLs, all we need are usernames
+        github_handle = github_handle.replace("https://github.com/", "")
     instagram_handle = speaker["Instagram username"] or ""
     twitter_handle = speaker["Twitter username"] or ""
     photo_url = speaker["Picture"] or ""
