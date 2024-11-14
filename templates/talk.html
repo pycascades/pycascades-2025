@@ -1,0 +1,25 @@
+{% from 'macros/speaker.html' import render_speaker %}
+{% extends 'layout.html' %}
+{% block title %}
+  {{ this.title }}
+{% endblock %}
+{% block body %}
+    <section class="section">
+        <div class="container">
+            <div class="content mb-3">
+                <h1>{{ this.title }}</h1>
+                {{ this.description }}
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="talk-speaker-list">
+                {% for speaker_slug in this.speaker_slugs %}
+                {% set speaker = site.get("program/speakers/" + speaker_slug) %}
+                    {{ render_speaker(speaker) }}
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+{% endblock %}
