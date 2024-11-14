@@ -1,0 +1,11 @@
+
+title: Mono-repositories in Python
+---
+description:
+
+A Mono-repository (Monorepo) refers to a repository that contains multiple packages or projects inside one repository. In most cases, it is better to just have multiple repositories that each contain a library, an application or a data science project with Jupyter notebooks. However, in some cases it makes sense to have a monorepo containing multiple projects often sharing a common theme or an ecosystem. This talk will explore the circumstances where monorepos make more sense, how to create monorepos containing Python libraries and projects, handle dependencies, version management and CI/CD setup. We shall go through a sample Python mono repository, thus making it practical for attendees to follow along.
+---
+speaker_slugs:
+
+avik-basu
+

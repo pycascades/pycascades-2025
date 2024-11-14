@@ -1,0 +1,19 @@
+
+title: Optimal Performance Over Basic as a Perfectionist with Deadlines
+---
+description:
+
+In this talk we will be going through strategies of optimising Django applications with a focus on the following:
+- database optimisation: indexing, query optimisation, and sharding, 
+- view rendering optimisation: template optimization, caching, and static file handling,
+- efficient serialization: minimizing data, compression, and caching,
+- concurrency with asynchronous views and background tasks to improve responsiveness.
+
+After this talk, attendees will learn practical techniques for improving execution time while reducing memory usage.
+
+This talk is ideal for individuals of all levels with knowledge of how Django works and software development practices.
+---
+speaker_slugs:
+
+velda-kiara
+
