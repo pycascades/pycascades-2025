@@ -8,6 +8,14 @@
         <div class="container">
             <div class="content mb-3">
                 <h1>{{ this.title }}</h1>
+                <h4>
+                    {% for speaker_slug in this.speaker_slugs %}
+                        {{ site.get("program/speakers/" + speaker_slug).name }}
+                        {% if loop.nextitem %}
+                        {{ "&" }}
+                        {% endif %}
+                    {% endfor %}
+                </h4>
                 {{ this.description }}
             </div>
         </div>
