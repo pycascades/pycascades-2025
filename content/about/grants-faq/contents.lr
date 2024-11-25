@@ -10,12 +10,13 @@ body:
 A: The costs covered by the Grant award may include some or all of the below:
 
 * Travel:
-** Transit receipts: taxi, bus, train, and mileage to/from airport, bus station, train station, lodging or conference center, and parking at these locations.
-** Driving: We will be following the 2024 IRS mileage rate. Please be sure to provide a PDF or an image of the mileage for your trip. Please do not submit gas receipts.
-** Airfare including baggage fees for travel to/from the conference.
+  * Transit receipts: taxi, bus, train, and mileage to/from airport, bus station, train station, lodging or conference center, and parking at these locations.
+  * Driving: We will be following the 2024 IRS mileage rate. Please be sure to provide a PDF or an image of the mileage for your trip. Please do not submit gas receipts.
+  * Airfare including baggage fees for travel to/from the conference.
 * Lodging: hotels, motels, hostels, AirBnB, etc. for the days you attend the conference. Reimbursement is limited to the shared cost if the room has more than one occupant.
 * Food (Per Diem): covers food during the days you attend the conference plus a travel day at the beginning and end of your trip at a fixed rate. Please do not upload food receipts. Per-diems are automatically granted to you based on the days that you are attending PyCascades, plus up to one travel day before and after conference attendance.
 * Visa fees: if you are a non US national and must have a visa to attend the conference.
+* Tickets: a free ticket or a refund on the ticket cost.
 
 The following costs are not covered by the grant:
 
@@ -70,7 +71,7 @@ No funds will be disbursed prior to or at the event. Only those that attend the 
 
 You may choose another person to receive the Grant disbursement on your behalf, but the PSF cannot guarantee that the other person will release the funds to you.
 
-* Please visit the Python Software Foundation’s Payment Options page for more information: https://www.python.org/psf/paymentoptions/
+Please visit the Python Software Foundation’s Payment Options page for more information: https://www.python.org/psf/paymentoptions/
 
 ### Q: How do I receive my travel grant disbursement?
 A: The Python Software Foundation will issue disbursement of funds within 7 business days after the completion of the conference, reimbursement method is provided, and receipts are submitted. Incomplete receipts or inaccurate payment information may delay your reimbursement. You must attend the conference in order to receive your travel grant disbursement.
