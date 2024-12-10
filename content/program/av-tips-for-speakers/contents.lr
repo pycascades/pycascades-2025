@@ -96,8 +96,8 @@ We try to recommend hardware that's widely available and reasonably affordable.
 *   1080p
 *   can be mounted on a tripod
 ---
-show_in_menu: no
+show_in_menu: yes
 ---
 sort_index: 1
 ---
-_hidden: yes
+_hidden: no
