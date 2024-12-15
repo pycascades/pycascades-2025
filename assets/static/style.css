@@ -47,6 +47,8 @@
 }
 
 .navbar.is-primary {
+    /* Override so the filter button on the pretalx schedule doesn't come in front of the navbar on scroll */
+    --bulma-navbar-fixed-z: 500;
     --bulma-navbar-dropdown-item-h: var(--pycascades-bright-purple-h);
     --bulma-navbar-dropdown-item-s: var(--pycascades-bright-purple-s);
     --bulma-navbar-dropdown-item-l: var(--pycascades-bright-purple-l);
