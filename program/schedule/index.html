@@ -11,7 +11,7 @@ Schedule
   </title>
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css" />
-  <link rel="stylesheet" href="../../static/style.css?h=3140ec2b" />
+  <link rel="stylesheet" href="../../static/style.css?h=0366f2c8" />
 </head>
 
 <body class="has-navbar-fixed-top">
@@ -113,12 +113,29 @@ Schedule
     <div class="content mb-3">
         <h1>Schedule</h1>
 
-        <p>PyCascades 2025 will be February 8th and 9th in Portland OR.</p>
-<p>We're finalizing the programming, stay tuned for the schedule!</p>
-
+        
     </div>
   </div>
 
+  
+  <div class="container">
+    <div class="content">
+      
+  <!-- https://docs.pretalx.org/user/event/widget/ -->
+<script type="text/javascript" src="https://pretalx.com/pycascades-2025/schedule/widget/v2.en.js"></script>
+
+<pretalx-schedule event-url="https://pretalx.com/pycascades-2025/" locale="en" style="--pretalx-sticky-top-offset: var(--bulma-navbar-height)"></pretalx-schedule>
+<noscript>
+   <div class="pretalx-widget">
+        <div class="pretalx-widget-info-message">
+            JavaScript is disabled in your browser. To access our schedule without JavaScript,
+            please <a target="_blank" href="https://pretalx.com/pycascades-2025/schedule/">click here</a>.
+        </div>
+    </div>
+</noscript>
+
+    </div>
+  </div>
   
 
   
