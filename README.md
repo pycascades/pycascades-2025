@@ -76,6 +76,33 @@ new page to be the child of. For example, to add a new page under the "about" se
     page which lists all of the recent blog posts
     - `Body` is the main content of the post, but is hidden from the list view
 
+## Adding/Removing Speakers and Talks
+In order to add a new speaker and/or talk you must first log into the pretalx account and export the speakers and
+sessions.
+
+### Exporting sessions
+1. Click "sessions" in the sidebar, then click "export"
+2. Under "Export format" select "JSON export"
+3. Under "Target group" select "confirmed"
+4. Under "Data fields" click the "select all" checkbox
+5. Click the save button
+6. Copy the exported file to the root of this repo
+
+### Exporting speakers
+1. Click "speakers" in the sidebar, then click "export"
+2. Under "Target group" click "With confirmed proposals"
+3. Under "Data fields" click the "select all" checkbox
+4. Undr "Export format" select "JSON export"
+5. Click the save button
+6. Copy the exported file to the root of this repo
+
+### Adding a new speaker or talk
+Run the `init_program.py` file which will read the JSON exports and add a new page for every new talk or speaker
+
+### Modifying an existing speaker or talk
+1. Delete the associated folder(s) under the `content/program/talks` and/or `content/program/speakers`
+2. Run `init_program.py` which will re-generate a page for each speaker or talk you removed
+    
 ## Saving Your Changes
 All changes you make, either edits to a specific page, or new pages added, are all saved to disk.
 Once you are done you'll want to commit the new or changed files to your branch in Git, and open a
