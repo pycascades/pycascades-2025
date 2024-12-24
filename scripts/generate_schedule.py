@@ -14,6 +14,7 @@ from pathlib import Path
 HEADERS = {"Authorization": f"Token {os.environ.get('PRETALX_TOKEN')}"}
 YEAR = "2025"
 EVENT_SLUG = f"pycascades-{YEAR}"
+COLUMNS = ["id", "title", "speakers", "start_time", "duration", "track", "link"]
 CSV_PATH = (
     Path(__file__).parents[1]
     / f"content/program/schedule/pycascades-{YEAR}_schedule.csv"
@@ -32,10 +33,11 @@ def fetch_schedule():
 
 def write_schedule(schedule):
     with CSV_PATH.open(mode="w", newline="") as file:
-        columns = ["id", "title", "speakers", "start_time", "duration", "track"]
-        writer = csv.DictWriter(file, fieldnames=columns)
+        writer = csv.DictWriter(file, fieldnames=COLUMNS)
         writer.writeheader()
 
+        contents = []
+        # Generate the records
         for talk in schedule["results"]:
             data = {
                 "id": talk["code"],
@@ -50,8 +52,13 @@ def write_schedule(schedule):
                 "track": talk["track"]["en"]
                 if "track" in talk and talk["track"]
                 else "",
+                "link": f"https://pretalx.com/{EVENT_SLUG}/talk/{talk['code']}/",
             }
-            writer.writerow(data)
+            contents.append(data)
+
+        # Sort by start time
+        contents = sorted(contents, key=lambda x: x["start_time"])
+        writer.writerows(contents)
 
 
 if __name__ == "__main__":
