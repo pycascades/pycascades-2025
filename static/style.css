@@ -149,3 +149,38 @@ img:hover {
     text-decoration: underline; 
 }
 
+.talks-speaker-list {
+    gap: 16px;
+}
+
+.speaker-card {
+    max-width: 300px;
+}
+
+.talk-speaker-list {
+    gap: 32px;
+}
+
+.speaker {
+    gap: 16px;
+}
+
+.speaker-info {
+    flex: 1;
+}
+
+.speaker-photo .image {
+    width: 300px;
+    border-radius: 0.75rem;
+    overflow: hidden;
+}
+
+.contact-link {
+    margin-bottom: 16px;
+}
+
+.contact-link a {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
