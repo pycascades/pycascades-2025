@@ -3,3 +3,5 @@ _model: talks
 title: Talks
 ---
 show_in_menu: yes
+---
+sort_index: 1
