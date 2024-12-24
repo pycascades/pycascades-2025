@@ -5,6 +5,10 @@ set dotenv-load := true
 default:
   @just --list --unsorted
 
+#####################
+# Lektor management #
+#####################
+
 # Install dependencies into the current environment
 install:
     @pipx --version || (echo "pipx is not installed. Please install it using 'python3 -m pip install --user pipx'." && exit 1)
@@ -28,3 +32,13 @@ clean:
 deploy:
     @just build
     lektor deploy ghpages
+
+##################
+# Other commands #
+##################
+generate-program:
+    @python3 init_program.py
+
+
+
+
