@@ -4,3 +4,4 @@ pycascades-2025_sessions.json
 .DS_Store
 .idea/
 .venv
+.env
