@@ -101,6 +101,15 @@ Run the `init_program.py` file (`just generate-program`) which will read the JSO
 ### Modifying an existing speaker or talk
 1. Delete the associated folder(s) under the `content/program/talks` and/or `content/program/speakers`
 2. Run `init_program.py` (`just generate-program`) which will re-generate a page for each speaker or talk you removed
+
+
+## Updating the Schedule CSV
+
+If the schedule gets changed, we should also update and deploy the schedule CSV. To do this:
+
+1. Ensure your `PRETALX_TOKEN` environment variable is set in the `.env` file
+2. Run `just generate-schedule`
+3. Commit the changes and deploy
     
 ## Saving Your Changes
 All changes you make, either edits to a specific page, or new pages added, are all saved to disk.
