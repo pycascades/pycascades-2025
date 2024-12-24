@@ -1,0 +1,29 @@
+
+title: Re-Py-Ducible Builds
+---
+description:
+
+Crank your Python best practices up to 11 with Reproducible Builds!
+
+This talk will explore Reproducible Builds by highlighting issues
+identified in Python projects, from the simple to the seemingly
+inscrutible.
+
+Reproducible Builds is basically the crazy idea that when you build
+something, and you build it again, you get the exact same thing... or
+even more important, if someone else builds it, they get the exact
+same thing too.
+
+Through a few code examples demonstrating common problems folks will
+learn what to watch out for when coding and how to fix them once
+identified.
+
+Some of the useful tooling for diagnosing and troubleshooting
+reproducibility issues (diffoscope and reprotest)... just so happen to
+be written in Python! Will even show you how to use them... and maybe
+take a look inside.
+---
+speaker_slugs:
+
+vagrant-cascadian
+

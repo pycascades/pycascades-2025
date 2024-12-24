@@ -1,0 +1,105 @@
+{% macro render_speaker_card(speaker) %}
+    <a href="{{ "/program/talks/" + speaker.talk_slug|url }}">
+        <div class="card speaker-card">
+            <div class="card-image">
+                <figure class="image">
+                    {% if speaker.attachments.get('profile.jpg') %}
+                        <img src="{{ speaker.attachments.get('profile.jpg') | url }}"/>
+                    {% elif speaker.attachments.get('profile.jpeg') %}
+                        <img src="{{ speaker.attachments.get('profile.jpeg') | url }}"/>
+                    {% elif speaker.attachments.get('profile.png') %}
+                        <img src="{{ speaker.attachments.get('profile.png') | url }}"/>
+                    {% elif speaker.attachments.get('profile.gif') %}
+                        <img src="{{ speaker.attachments.get('profile.gif') | url }}"/>
+                    {% endif %}
+                </figure>
+            </div>
+
+            <div class="card-content">
+                <div class="media">
+                    <div class="media-content">
+                        <h4 class="title is-4">{{ speaker.talk_title }}</h4>
+                        <h6 class="subtitle is-6">{{ speaker.name }}</h6>
+
+                        {% if full_details %}
+                            <p>{{ speaker.bio }}</p>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </a>
+{% endmacro %}
+
+{% macro render_speaker(speaker) %}
+    <div class="speaker is-flex mb-6">
+        <div class="speaker-info">
+            <div class="speaker-name-and-bio mb-5">
+                <h4 class="title is-4">About {{ speaker.name }}</h4>
+                <div class="content">{{ speaker.bio }}</div>
+            </div>
+
+            {% if speaker.website_url or speaker.github_handle or speaker.mastodon_url or speaker.twitter_handle or speaker.instagram_handle %}
+                <div class="speaker-contact">
+                    {% if speaker.website_url %}
+                        <div class="contact-link">
+                            <a href="{{ speaker.website_url }}" target="_blank">
+                                {{ speaker.website_url.replace("https://", "") }}
+                            </a>
+                        </div>
+                    {% endif %}
+
+                    {% if speaker.github_handle %}
+                        <div class="contact-link">
+                            <a href="https://github.com/{{ speaker.github_handle }}" target="_blank">
+                                <img src="{{ '/static/github.svg' | asseturl }}" width="35"/>
+                                {{ speaker.github_handle }}
+                            </a>
+                        </div>
+                    {% endif %}
+
+                    {% if speaker.mastodon_url %}
+                        <div class="contact-link">
+                            <a href="{{ speaker.mastodon_url }}" target="_blank">
+                                <img src="{{ '/static/mastodon.svg' | asseturl }}" width="35"/>
+                                {{ speaker.mastodon_url }}
+                            </a>
+                        </div>
+                    {% endif %}
+
+                    {% if speaker.instagram_handle %}
+                        <div class="contact-link">
+                            <a href="https://www.instagram.com/{{ speaker.instagram_handle }}/" target="_blank">
+                                <img src="{{ '/static/instagram.svg' | asseturl }}" width="35"/>
+                                {{ speaker.instagram_handle }}
+                            </a>
+                        </div>
+                    {% endif %}
+
+                    {% if speaker.twitter_handle %}
+                        <div class="contact-link">
+                            <a href="https://www.twitter.com/@{{ speaker.twitter_handle }}" target="_blank">
+                                <img src="{{ '/static/x.svg' | asseturl }}" width="35"/>
+                                {{ speaker.twitter_handle }}
+                            </a>
+                        </div>
+                    {% endif %}
+                </div>
+            {% endif %}
+        </div>
+
+        <div class="speaker-photo">
+            <figure class="image">
+                {% if speaker.attachments.get('profile.jpg') %}
+                    <img src="{{ speaker.attachments.get('profile.jpg') | url }}"/>
+                {% elif speaker.attachments.get('profile.jpeg') %}
+                    <img src="{{ speaker.attachments.get('profile.jpeg') | url }}"/>
+                {% elif speaker.attachments.get('profile.png') %}
+                    <img src="{{ speaker.attachments.get('profile.png') | url }}"/>
+                {% elif speaker.attachments.get('profile.gif') %}
+                    <img src="{{ speaker.attachments.get('profile.gif') | url }}"/>
+                {% endif %}
+            </figure>
+        </div>
+    </div>
+{% endmacro %}

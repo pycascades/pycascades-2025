@@ -1,0 +1,24 @@
+{% extends 'layout.html' %}
+{% from 'macros/speaker.html' import render_speaker_card %}
+{% block title %}
+{{ this.title }}
+{% endblock %}
+{% block body %}
+<section class="section">
+    <div class="container">
+        <div class="content">
+            <h2>{{ this.title }}</h2>
+
+            {{ this.body }}
+        </div>
+
+        <div class="section">
+            <div class="talks-speaker-list is-flex is-flex-wrap-wrap is-justify-content-center">
+                {% for speaker in site.query('/program/speakers') %}
+                    {{ render_speaker_card(speaker) }}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
