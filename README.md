@@ -3,11 +3,10 @@ The static website for 2025.pycascades.com built with Lektor
 
 # Setup
 1. Clone this repo somewhere on your machine
-2. Install Python, and create a virtualenv
-3. Install [Lektor](https://www.getlektor.com/docs/installation/)
-    - `pip install lektor`
+2. Install Python, [pipx](https://pipx.pypa.io/latest/installation/), and [Just](https://just.systems/man/en/)
+3. Install Lektor: `just install`
     - Lektor uses `imagemagick`, you'll need to install this as well
-4. Start the dev server with `lektor serve`
+4. Start the dev server with `just up`
     - This starts a web server at `http://127.0.0.1:5000/`, where you can preview the site and use
     the admin panel to add new pages or other content.
 
@@ -97,11 +96,11 @@ sessions.
 6. Copy the exported file to the root of this repo
 
 ### Adding a new speaker or talk
-Run the `init_program.py` file which will read the JSON exports and add a new page for every new talk or speaker
+Run the `init_program.py` file (`just generate-program`) which will read the JSON exports and add a new page for every new talk or speaker
 
 ### Modifying an existing speaker or talk
 1. Delete the associated folder(s) under the `content/program/talks` and/or `content/program/speakers`
-2. Run `init_program.py` which will re-generate a page for each speaker or talk you removed
+2. Run `init_program.py` (`just generate-program`) which will re-generate a page for each speaker or talk you removed
     
 ## Saving Your Changes
 All changes you make, either edits to a specific page, or new pages added, are all saved to disk.
@@ -111,19 +110,8 @@ an organizer will deploy your changes to the live site.
 
 # Deploying
 
-Deploying is easy:
+Deploying is easy: `just deploy`
 
-First you must build:
-
-```
-$ lektor build
-```
-
-Then deploy:
-
-```
-$ lektor deploy ghpages
-```
 Lektor will commit the built site to the `gh-pages` branch, and push, which will get deployed by
 GitHub automatically.
 
