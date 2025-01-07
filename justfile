@@ -36,8 +36,14 @@ deploy:
 ##################
 # Other commands #
 ##################
+
+# Generate the program pages (talks & speakers)
 generate-program:
-    @python3 init_program.py
+    @python3 scripts/init_program.py
+
+# Generate the schedule CSV
+generate-schedule:
+    @python3 scripts/generate_schedule.py
 
 
 

@@ -4,6 +4,13 @@ title: Schedule
 ---
 content:
 
+#### markdown ####
+title: 
+----
+hidden: False
+----
+body: [CSV version](/program/schedule/pycascades-2025_schedule.csv)
+
 #### html ####
 hidden: False
 ----
@@ -21,6 +28,5 @@ content:
         </div>
     </div>
 </noscript>
-
 ---
 show_in_menu: yes
