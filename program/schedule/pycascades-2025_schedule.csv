@@ -1,0 +1,21 @@
+id,title,speakers,start_time,duration,track,link
+LQCJYR,"Web Maps, 2 Ways with Streamlit and PyScript",Christy Heaton,2025-02-08T09:25:00-08:00,25,In-Person,https://pretalx.com/pycascades-2025/talk/LQCJYR/
+ARGDGT,FastDjango: Conjuring Powerful APIs with the Sorcery of Django Ninja,Julius Boakye,2025-02-08T09:55:00-08:00,25,In-Person,https://pretalx.com/pycascades-2025/talk/ARGDGT/
+MSBEKD,Goodbye GIL: Exploring the Free-threaded mode in Python 3.13,Adarsh Divakaran,2025-02-08T11:00:00-08:00,25,Remote,https://pretalx.com/pycascades-2025/talk/MSBEKD/
+F7NMZ3,Only You Can Prevent Data Fires - Getting Proactive About Data Quality,Sev Leonard,2025-02-08T11:30:00-08:00,25,In-Person,https://pretalx.com/pycascades-2025/talk/F7NMZ3/
+WNYFCT,Ctrl+Alt+Heal: Python and the Future of MedTech,Lilinoe Harbottle,2025-02-08T12:00:00-08:00,25,In-Person,https://pretalx.com/pycascades-2025/talk/WNYFCT/
+P9VSLS,Observability Matters: Empowering Python Developers with OpenTelemetry.,Yash Verma,2025-02-08T14:00:00-08:00,25,Remote,https://pretalx.com/pycascades-2025/talk/P9VSLS/
+DUZVPC,Re-Py-Ducible Builds,Vagrant Cascadian,2025-02-08T14:30:00-08:00,25,In-Person,https://pretalx.com/pycascades-2025/talk/DUZVPC/
+VF8ZGS,Building a thriving Python Community: From Workshops to Masterminds,Kafui Alordo,2025-02-08T15:00:00-08:00,25,In-Person,https://pretalx.com/pycascades-2025/talk/VF8ZGS/
+P9SHDD,Quantifying Nebraska,Adam Harvey,2025-02-08T16:00:00-08:00,25,In-Person,https://pretalx.com/pycascades-2025/talk/P9SHDD/
+LVWE7D,Mono-repositories in Python,Avik Basu,2025-02-08T16:30:00-08:00,25,In-Person,https://pretalx.com/pycascades-2025/talk/LVWE7D/
+XFEF8V,Error Culture,Ryan Cheley,2025-02-08T17:00:00-08:00,25,In-Person,https://pretalx.com/pycascades-2025/talk/XFEF8V/
+REDHTM,Data Science Garage: Building Tools for Genomic Research,"Liam Beckman, Quinn Wai Wong, Nasim, Kyle Ellrott",2025-02-09T09:15:00-08:00,25,In-Person,https://pretalx.com/pycascades-2025/talk/REDHTM/
+ZWYR8S,Building Resilient Applications with Circuit Breakers and Retries in FastAPI,Sameer Shukla,2025-02-09T09:40:00-08:00,25,In-Person,https://pretalx.com/pycascades-2025/talk/ZWYR8S/
+PKDT8S,Community Doesn’t Equate to Visibility – What Can You Do Differently?,Aji Fama Jobe,2025-02-09T11:00:00-08:00,25,Remote,https://pretalx.com/pycascades-2025/talk/PKDT8S/
+GYAF3K,Let Me Introduce Y’all to Y’all,Mason Egger,2025-02-09T11:30:00-08:00,25,In-Person,https://pretalx.com/pycascades-2025/talk/GYAF3K/
+UNPUQD,Optimal Performance Over Basic as a Perfectionist with Deadlines,Velda Kiara,2025-02-09T12:00:00-08:00,25,In-Person,https://pretalx.com/pycascades-2025/talk/UNPUQD/
+SJ7K3G,Unlocking Concurrency and Performance in Python with ASGI and Async I/O,"Allen Y, M Aswin Kishore",2025-02-09T14:00:00-08:00,25,Remote,https://pretalx.com/pycascades-2025/talk/SJ7K3G/
+PY9SJT,Python for Planet Earth: Climate Modeling and Sustainability in Action,Drishti Jain,2025-02-09T14:30:00-08:00,25,In-Person,https://pretalx.com/pycascades-2025/talk/PY9SJT/
+SYYPNE,You Should Build a Robot (MicroPython & Microprocessors),Sage Elliott,2025-02-09T15:00:00-08:00,25,In-Person,https://pretalx.com/pycascades-2025/talk/SYYPNE/
+DNFUQ8,PyLadies Panel: Talking about experiences and roles within the Python community.,"Drishti Jain, Parul Gupta, Lilinoe Harbottle, Nasim",2025-02-09T16:00:00-08:00,50,In-Person,https://pretalx.com/pycascades-2025/talk/DNFUQ8/
