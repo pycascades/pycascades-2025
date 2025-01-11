@@ -6,4 +6,13 @@ show_in_menu: yes
 ---
 sort_index: 0
 ---
-_hidden: yes
+_hidden: no
+---
+content:
+
+#### markdown ####
+title: Silver
+----
+hidden: False
+----
+body: ![Elastic logo](logo-elastic.png)
