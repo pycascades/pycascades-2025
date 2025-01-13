@@ -185,7 +185,10 @@ img:hover {
     gap: 16px;
 }
 
-.sponsor-tier h1 {
+.sponsor-tier h1,
+.sponsor-tier h2,
+.sponsor-tier h3,
+.sponsor-tier h4 {
     text-align: center;
     border-top: 1px solid var(--bulma-content-heading-color);
     border-bottom: 1px solid var(--bulma-content-heading-color);
