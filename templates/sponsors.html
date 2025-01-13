@@ -1,0 +1,25 @@
+{% extends 'layout.html' %}
+{% from 'macros/sponsor.html' import render_tier %}
+
+{% block title %}
+    {{ this.title }}
+{% endblock %}
+
+{% block body %}
+    <section class="section">
+        <div class="container mb-3">
+            <div class="content">
+                <h1>Our Sponsors</h1>
+            </div>
+        </div>
+        <div class="container">
+            <div class="content">
+                {{ render_tier("Diamond") }}
+                {{ render_tier("Platinum") }}
+                {{ render_tier("Gold") }}
+                {{ render_tier("Silver") }}
+                {{ render_tier("Bronze") }}
+            </div>
+        </div>
+    </section>
+{% endblock %}

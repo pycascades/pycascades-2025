@@ -1,0 +1,21 @@
+{% macro render_sponsor(sponsor) %}
+    <div class="sponsor-entry">
+        <img src="{{ sponsor.attachments.get('logo.png') | url }}"/>
+        {{ sponsor.about }}
+    </div>
+{% endmacro %}
+
+{% macro render_tier(tier) %}
+    {% set sponsors = site.get("sponsors/our-sponsors").children.filter(F.tier == tier) %}
+    {% set count = sponsors.count() %}
+    {% if count > 0 %}
+        <div class="sponsor-tier">
+            <h3>{{ tier }}</h3>
+            <div class="sponsor-group">
+                {% for sponsor in site.get("sponsors/our-sponsors").children.filter(F.tier == tier) %}
+                    {{ render_sponsor(sponsor) }}
+                {% endfor %}
+            </div>
+        </div>
+    {% endif %}
+{% endmacro %}
