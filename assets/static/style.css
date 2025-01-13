@@ -184,3 +184,29 @@ img:hover {
     align-items: center;
     gap: 16px;
 }
+
+.sponsor-tier h1,
+.sponsor-tier h2,
+.sponsor-tier h3,
+.sponsor-tier h4 {
+    text-align: center;
+    border-top: 1px solid var(--bulma-content-heading-color);
+    border-bottom: 1px solid var(--bulma-content-heading-color);
+    padding: 20px 0;
+    margin: 20px 0;
+}
+
+.sponsor-group {
+    display: flex;
+}
+
+.sponsor-entry {
+    margin: 30px;
+    text-align: center;
+    max-width: 50%;
+}
+
+.sponsor-entry img {
+    max-height: 200px;
+    margin: 20px 0;
+}
