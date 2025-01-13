@@ -66,15 +66,19 @@ content:
   <h3>Silver</h3>
   <div class="sponsor-group">
     <div class="sponsor-entry">
-      <img src="logo-elastic.png"/>
+      <a href="https://www.elastic.co/" target="_blank">
+        <img src="logo-elastic.png"/>
+      </a>
       <p>
-        Elastic is The Search AI Company. We bring together the precision of search and the intelligence of AI to accelerate results that matter. Learn more at <a href="https://www.elastic.co/">elastic.co</a>.
+        Elastic is The Search AI Company. We bring together the precision of search and the intelligence of AI to accelerate results that matter. Learn more at <a href="https://www.elastic.co/" target="_blank">elastic.co</a>.
       </p>
     </div>
     <div class="sponsor-entry">
-      <img src="logo-stately.png"/>
+      <a href="https://stately.cloud" target="_blank">
+        <img src="logo-stately.png"/>
+      </a>
       <p>
-        StatelyDB is a new database built to take you from zero to wherever. Our elastic schema combines the best of NoSQL and relational databases so you can develop faster and stop worrying about every little decision. We’ve built on the unlimited scalability of DynamoDB but with a delightful developer experience that lets you change your mind and iterate quickly. Built by engineers who scaled systems at Amazon and Snap, StatelyDB helps you focus on building features rather than wrestling with database optimization. To learn more, visit <a href="https://stately.cloud">stately.cloud</a>.
+        StatelyDB is a new database built to take you from zero to wherever. Our elastic schema combines the best of NoSQL and relational databases so you can develop faster and stop worrying about every little decision. We’ve built on the unlimited scalability of DynamoDB but with a delightful developer experience that lets you change your mind and iterate quickly. Built by engineers who scaled systems at Amazon and Snap, StatelyDB helps you focus on building features rather than wrestling with database optimization. To learn more, visit <a href="https://stately.cloud" target="_blank">stately.cloud</a>.
       </p>
     </div>
   </div>
