@@ -3,3 +3,5 @@ name: StatelyDB
 about: StatelyDB is a new database built to take you from zero to wherever. Our elastic schema combines the best of NoSQL and relational databases so you can develop faster and stop worrying about every little decision. We’ve built on the unlimited scalability of DynamoDB but with a delightful developer experience that lets you change your mind and iterate quickly. Built by engineers who scaled systems at Amazon and Snap, StatelyDB helps you focus on building features rather than wrestling with database optimization. To learn more, visit [stately.cloud](https://stately.cloud).
 ---
 tier: Silver
+---
+url: https://stately.cloud/

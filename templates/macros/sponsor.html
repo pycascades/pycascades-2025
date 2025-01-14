@@ -1,6 +1,8 @@
 {% macro render_sponsor(sponsor) %}
     <div class="sponsor-entry">
-        <img src="{{ sponsor.attachments.get('logo.png') | url }}"/>
+        <a href="{{ sponsor.url }}" target="_blank">
+            <img src="{{ sponsor.attachments.get('logo.png') | url }}"/>
+        </a>
         {{ sponsor.about }}
     </div>
 {% endmacro %}
