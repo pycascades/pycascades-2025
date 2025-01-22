@@ -82,18 +82,26 @@ def render_speaker(speaker, talk):
     photo_suffix = photo_url.split(".")[-1].lower()
     talk_slug = talk["slug"]
     print(f"Rendering speaker {name}")
-    contents = speaker_template.format(name=name, bio=bio, talk_title=talk_title, talk_slug=talk_slug,
-                                       website_url=website_url, mastodon_url=mastodon_url, github_handle=github_handle,
-                                       instagram_handle=instagram_handle, twitter_handle=twitter_handle)
+    contents = speaker_template.format(
+        name=name,
+        bio=bio,
+        talk_title=talk_title,
+        talk_slug=talk_slug,
+        website_url=website_url,
+        mastodon_url=mastodon_url,
+        github_handle=github_handle,
+        instagram_handle=instagram_handle,
+        twitter_handle=twitter_handle,
+    )
 
-    folder_path = Path('content', 'program', 'speakers', slug)
+    folder_path = Path("content", "program", "speakers", slug)
 
     if not folder_path.exists():
         folder_path.mkdir()
     else:
         print(f"Folder {folder_path} already exists")
 
-    file_path = Path(folder_path, 'contents.lr')
+    file_path = Path(folder_path, "contents.lr")
 
     if not file_path.exists():
         file_path.write_text(contents)
@@ -126,11 +134,18 @@ def trim_title(title, char):
 def render_talk(talk, speakers):
     title = talk["Proposal title"]
     description = talk["Abstract"]
-    slug = trim_title(title, ':')
-    slug = trim_title(slug, '(')
-    slug = trim_title(slug, ' – ')
-    slug = trim_title(slug, ' - ')
-    slug = slug.replace("/", "").replace("+", " ").replace("’", "").replace(",", "").replace(".", " ").replace("!", "")
+    slug = trim_title(title, ":")
+    slug = trim_title(slug, "(")
+    slug = trim_title(slug, " – ")
+    slug = trim_title(slug, " - ")
+    slug = (
+        slug.replace("/", "")
+        .replace("+", " ")
+        .replace("’", "")
+        .replace(",", "")
+        .replace(".", " ")
+        .replace("!", "")
+    )
     slug = "-".join(slug.lower().split(" "))
     talk["slug"] = slug
     speaker_slugs = []
@@ -141,13 +156,15 @@ def render_talk(talk, speakers):
         speaker_slugs.append(speaker["slug"])
         render_speaker(speaker, talk)
 
-    contents = talk_template.format(title=title, description=description, speaker_slugs="\n".join(speaker_slugs))
-    folder_path = Path('content', 'program', 'talks', slug)
+    contents = talk_template.format(
+        title=title, description=description, speaker_slugs="\n".join(speaker_slugs)
+    )
+    folder_path = Path("content", "program", "talks", slug)
 
     if not folder_path.exists():
         folder_path.mkdir()
 
-    file_path = Path(folder_path, 'contents.lr')
+    file_path = Path(folder_path, "contents.lr")
     file_path.write_text(contents)
 
 
