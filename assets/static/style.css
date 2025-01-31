@@ -198,6 +198,7 @@ img:hover {
 
 .sponsor-group {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
