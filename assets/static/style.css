@@ -198,12 +198,15 @@ img:hover {
 
 .sponsor-group {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .sponsor-entry {
     margin: 30px;
     text-align: center;
     max-width: 50%;
+    flex: 1 1 0px;
 }
 
 .sponsor-entry img {
