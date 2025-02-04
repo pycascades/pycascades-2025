@@ -17,7 +17,7 @@ body:
 
 For our online attendees, we are holding the conference programs in **Venueless.** You'll enter Venueless via your Pretix confirmation email. Madison has helpfully created this instructional video to help you get into the platform:
 
-**NOTE: Venueless will open at [TBD] PST** _(contrary to what is said in the video)_
+**NOTE: Venueless will open at 12PM PST on Friday, February 7th** _(contrary to what is said in the video)_
 #### html ####
 ----
 content: <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/arLdoEznf7M?si=8F9UWBGjAh0aKKFN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -30,7 +30,7 @@ You'll have received an order confirmation email after purchasing your ticket. T
 
 ![Screenshot of a ticket page with a "Join online event" button](join-online-event.png)
 
-This button won't be available until **Friday April 5th, 2024**, when we'll turn on access to our event platform. After that you'll see the **"Join online event"** button at the top of your order. Click on the link to log into the platform and setup your account.
+This button won't be available until **Friday, February 7th 2025**, when we'll turn on access to our event platform. After that you'll see the **"Join online event"** button at the top of your order. Click on the link to log into the platform and setup your account.
 #### markdown ####
 title: Setup Your Profile
 ----
@@ -38,7 +38,7 @@ body:
 
 #### First Login
 
-When you login for the first time, you'll be prompted to complete your user profile. It'll first ask you to fill in your **display name** and a **profile photo**. Adding a photo or avatar will make it easier for people to recognize you throughout the event.
+When you login for the first time, you'll be prompted to complete your user profile. It'll first ask you to fill in your **display name** and a **profile photo** (or use Gravatar/LinkedIn to connect your information). Adding a photo or avatar will make it easier for people to recognize you throughout the event.
 
 These are the first screens you'll encounter when logging in. **You can change all of these later on your profile page.**
 
@@ -53,7 +53,7 @@ We have added a few **optional profile questions**. They'll help you to share so
 *   **Pronouns**: we ask that you add your pronouns to make sure everyone feels welcome and comfortable sharing theirs as well. This'll make it easier to interact with people in a **respectful way** and allows others to address you **the way you prefer to be addressed**.
 *   **Open To DMs**: you can indicate that you are open to other attendees DM'ing you. Alternatively, you can let others know you'd prefer not to be contacted. **This is a guide for others and not enforced through the platform.**
 *   **Company/School/Institution**: Feel free to share who you work for or are affiliated with.
-*   **Twitter**: Share you twitter handle.
+*   **Social Media**: Share you twitter/Bluesky/LinkedIn URL.
 *   **Mastodon**: Alternatively or in addition, share your Mastodon user URL.
 
 ![Screenshot of the profile fields within Venueless&#x27;s first time setup.](optional-questions.png)
