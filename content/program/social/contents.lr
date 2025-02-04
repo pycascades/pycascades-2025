@@ -4,4 +4,34 @@ title: Social
 ---
 show_in_menu: yes
 ---
-_hidden: yes
+_hidden: no
+---
+_discoverable: yes
+---
+sort_index: 3
+---
+body:
+
+Join us for a pre-social on **Friday, February 7th at 5pm\!** Meet us at this unique Portland favorite, **Hawthorne Asylum Food Cart Pod**: pick up your badge, meet our team and fellow attendees, and get fabulous food and drinks\!
+
+Hawthorne Street Asylum is a full block of food carts from all over the world. You can enjoy funky art installations, sit by the fire, get a filling meal after your travels, or a sweet treat (or a filling treat, like at the waffle cart\!). There's a brand new bar (with NA options) and restrooms, and all table areas are (very) heated.
+
+**Friday, February 7th at 5pm**
+
+**Hawthorne Asylum Food Cart Pod**
+
+**SE 10th Ave &, 1080 SE Madison St, Portland, OR 97214**
+---
+content:
+
+#### markdown ####
+title: 
+----
+hidden: False
+----
+body: 
+
+![Image of Hawthorne Asylum tables](image1.png)
+![Image of Hawthorne Asylum outside](image3.png)
+![Image of Hawthorne Asylum food carts](image4.png)
+![Image of Hawthorne Asylum tables](image8.png)
